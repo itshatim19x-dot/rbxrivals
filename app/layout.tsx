@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import Header from '@/components/layout/Header';
-
+import { GoogleAnalytics } from '@next/third-parties/google';
 const siteUrl = 'https://rbxrivals.com';
 
 export const metadata: Metadata = {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
       'Find active Roblox Rivals codes free rewards ranked tips weapon guides skins maps loadouts and simple strategies to improve faster.',
     images: [
       {
-        url: '/og-image.webp',
+        url: '/img/logo.png',
         width: 1200,
         height: 630,
         alt: 'RbxRivals Roblox Rivals codes ranked tips and weapon guides',
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     title: 'RbxRivals - Fresh Roblox Rivals Codes Ranked Tips and Weapon Guides',
     description:
       'Find active Roblox Rivals codes free rewards ranked tips weapon guides skins maps loadouts and simple strategies to improve faster.',
-    images: ['/og-image.webp'],
+    images: ['/img/logo.png'],
   },
 
 icons: {
@@ -181,6 +181,7 @@ export default function RootLayout({
           {children}
         </main>
       </body>
+     <GoogleAnalytics gaId="G-24XM6DQBPS" />
     </html>
   );
 }
