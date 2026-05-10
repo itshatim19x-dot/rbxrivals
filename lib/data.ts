@@ -404,6 +404,1471 @@ export const maps: Map[] = [
 ];
 
 export const blogPosts: BlogPost[] = [
+
+  {
+  slug: 'roblox-rivals-new-codes-may-2026',
+  title: 'Roblox Rivals New Codes May 2026 – Fresh Active Rewards & Free Keys',
+  category: 'Codes',
+  date: '2026-05-10',
+  image: '/img/articles/article_04_01.jpg',
+  excerpt: 'Latest Roblox Rivals new codes for May 2026 with free keys, weapon wraps, charms, and exclusive rewards. Updated daily with working codes.',
+  content: `
+    <article class="relative overflow-hidden rounded-2xl bg-black p-5 text-slate-200 sm:p-8 lg:p-10">
+      <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
+
+      <section class="relative border-b border-white/10 pb-10">
+        <p class="mb-4 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue">
+          ROBLOX RIVALS NEW CODES MAY 2026
+        </p>
+
+        <h2 class="max-w-4xl text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">
+          Fresh Roblox Rivals Codes – Free Keys, Wraps & Daily Rewards
+        </h2>
+
+        <div class="mt-6 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Looking for <strong class="text-lightning-blue">Roblox Rivals new codes</strong> that actually work? Every day, fresh codes appear for free keys, weapon wraps, charms, and exclusive rewards. But most code lists online are full of expired or fake codes that waste your time.
+          </p>
+
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            This page is updated daily with <strong class="text-dark-pink">REAL working codes</strong> for Roblox Rivals. Bookmark this page and check back often because codes expire fast. Below you will find active codes, how to redeem them, and where to find new ones before anyone else.
+          </p>
+        </div>
+
+        <nav class="article-cta mt-7 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <a href="/codes" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-dark-pink px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-white !no-underline transition-colors hover:bg-white hover:!text-black sm:px-6 sm:py-4 sm:text-base">
+            <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6V7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M12 6v12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 3"/>
+            </svg>
+            <span class="pointer-events-none leading-none !text-inherit">View All Active Codes</span>
+          </a>
+
+          <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:px-6 sm:py-4 sm:text-base">
+            <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+            </svg>
+            <span class="pointer-events-none leading-none !text-inherit">Generate Working Code</span>
+          </a>
+        </nav>
+      </section>
+
+      <figure class="relative my-10 overflow-hidden rounded-xl border border-white/10">
+        <img
+          src="/img/articles/new-codes-may-2026.jpg"
+          alt="Roblox Rivals new codes May 2026 active rewards and free keys guide"
+          class="h-auto w-full object-cover"
+          loading="eager"
+        />
+        <figcaption class="border-t border-white/10 bg-black px-4 py-3 text-sm text-slate-500">
+          Latest Roblox Rivals new codes for May 2026 – redeem now before they expire.
+        </figcaption>
+      </figure>
+
+      <section class="relative mb-10">
+        <h2 class="border-l-4 border-lightning-blue pl-4 text-3xl font-black text-white">
+          Active Roblox Rivals Codes – May 2026
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            These codes are <strong class="text-green-400">verified working</strong> as of May 2026. Redeem them immediately because Roblox Rivals codes can expire without warning. If a code does not work, it may have expired or been typed incorrectly.
+          </p>
+        </div>
+
+        <div class="mt-7 overflow-x-auto rounded-xl border border-white/10">
+          <table class="w-full min-w-[600px] border-collapse text-left text-sm">
+            <thead class="bg-white/[0.06] text-white">
+              <tr>
+                <th class="px-5 py-4 font-black">Code</th>
+                <th class="px-5 py-4 font-black">Reward</th>
+                <th class="px-5 py-4 font-black">Status</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-white/10 text-slate-300">
+              <tr class="hover:bg-white/5">
+                <td class="px-5 py-4 font-mono font-bold text-lightning-blue">FREE173</td>
+                <td class="px-5 py-4">3 Free Keys</td>
+                <td class="px-5 py-4"><span class="text-green-400">● Active</span></td>
+              </tr>
+              <tr class="hover:bg-white/5">
+                <td class="px-5 py-4 font-mono font-bold text-lightning-blue">COMMUNITY23</td>
+                <td class="px-5 py-4">Community Weapon Wrap</td>
+                <td class="px-5 py-4"><span class="text-green-400">● Active</span></td>
+              </tr>
+              <tr class="hover:bg-white/5">
+                <td class="px-5 py-4 font-mono font-bold text-lightning-blue">BONUS</td>
+                <td class="px-5 py-4">1 Free Key</td>
+                <td class="px-5 py-4"><span class="text-green-400">● Active</span></td>
+              </tr>
+              <tr class="hover:bg-white/5">
+                <td class="px-5 py-4 font-mono font-bold text-lightning-blue">BOOST</td>
+                <td class="px-5 py-4">1 Free Key</td>
+                <td class="px-5 py-4"><span class="text-green-400">● Active</span></td>
+              </tr>
+              <tr class="hover:bg-white/5">
+                <td class="px-5 py-4 font-mono font-bold text-lightning-blue">ROBLOX_RTC</td>
+                <td class="px-5 py-4">5 Free Keys</td>
+                <td class="px-5 py-4"><span class="text-green-400">● Active</span></td>
+              </tr>
+              <tr class="hover:bg-white/5">
+                <td class="px-5 py-4 font-mono font-bold text-lightning-blue">ELBILLUG</td>
+                <td class="px-5 py-4">Joke Code / No Reward</td>
+                <td class="px-5 py-4"><span class="text-yellow-400">● Testing</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          <span class="text-lightning-blue">01.</span> How to Redeem Roblox Rivals New Codes
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Redeeming Roblox Rivals new codes is simple. Follow these steps to claim your free rewards in less than one minute.
+          </p>
+        </div>
+
+        <div class="mt-7 overflow-x-auto rounded-xl border border-white/10">
+          <table class="w-full min-w-[500px] border-collapse text-left text-sm">
+            <thead class="bg-white/[0.06] text-white">
+              <tr>
+                <th class="px-5 py-4 font-black">Step</th>
+                <th class="px-5 py-4 font-black">Action</th>
+                <th class="px-5 py-4 font-black">Details</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-white/10 text-slate-300">
+              <tr>
+                <td class="px-5 py-4 font-black text-lightning-blue">1</td>
+                <td class="px-5 py-4">Launch Roblox Rivals</td>
+                <td class="px-5 py-4">Open the game on Roblox and wait for the main menu</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-4 font-black text-lightning-blue">2</td>
+                <td class="px-5 py-4">Find the Codes Button</td>
+                <td class="px-5 py-4">Look for the ticket or gift icon on the main menu</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-4 font-black text-lightning-blue">3</td>
+                <td class="px-5 py-4">Enter the Code</td>
+                <td class="px-5 py-4">Type or paste the code exactly as shown (case-sensitive)</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-4 font-black text-lightning-blue">4</td>
+                <td class="px-5 py-4">Press Redeem</td>
+                <td class="px-5 py-4">Click the redeem button to claim your reward</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-4 font-black text-lightning-blue">5</td>
+                <td class="px-5 py-4">Check Your Rewards</td>
+                <td class="px-5 py-4">Keys, wraps, or charms should appear immediately</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="bg-gradient-to-r from-lightning-blue to-dark-pink bg-clip-text text-3xl font-black text-transparent">
+          Where to Find Roblox Rivals New Codes First
+        </h2>
+
+        <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          The best way to never miss Roblox Rivals new codes is to know where they appear first. Developers usually release codes during updates, community milestones, and special events.
+        </p>
+
+        <h3 class="mt-8 text-2xl font-black text-lightning-blue">Official Roblox Rivals Discord</h3>
+        <p class="mt-4 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          The official Discord server is the first place where new codes are announced. Join the server, watch the announcements channel, and redeem codes within minutes of release.
+        </p>
+
+        <h3 class="mt-8 text-2xl font-black text-lightning-blue">Developer Social Media</h3>
+        <p class="mt-4 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Follow the developers on X (Twitter) for surprise code drops. Some codes are only shared through social media and expire within hours.
+        </p>
+
+        <h3 class="mt-8 text-2xl font-black text-lightning-blue">Update Patch Notes</h3>
+        <p class="mt-4 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Every major update usually comes with one or more new codes. Always read the patch notes and look for reward announcements.
+        </p>
+      </section>
+
+      <aside class="relative mb-10 overflow-hidden border-2 border-lightning-blue/30 bg-gradient-to-r from-lightning-blue/10 to-dark-pink/10 p-5 sm:p-6 lg:p-8">
+        <div class="absolute inset-0 pattern-squares opacity-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 h-32 w-32 bg-lightning-blue/20 blur-[50px] pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <p class="mb-3 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue">
+            Never Miss A Code
+          </p>
+
+          <h2 class="text-xl font-display font-bold text-white sm:text-2xl">
+            Bookmark This Page For Daily Updates
+          </h2>
+
+          <p class="mt-2 max-w-3xl text-sm leading-7 text-slate-300">
+            Roblox Rivals new codes are added and removed fast. Save this page and check back every day for the latest working rewards before they expire.
+          </p>
+
+          <nav class="article-cta mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <a href="/codes" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-dark-pink px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-white !no-underline transition-colors hover:bg-white hover:!text-black sm:px-6 sm:py-4 sm:text-base">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6V7Z"/>
+                <path d="M12 6v12"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">View Active Codes Page</span>
+            </a>
+
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:px-6 sm:py-4 sm:text-base">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Generate Working Code</span>
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          <span class="text-dark-pink">02.</span> Expired Roblox Rivals Codes (Do Not Use)
+        </h2>
+
+        <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          These codes no longer work. If you find them on other websites, ignore them. Only use the active codes from the table above.
+        </p>
+
+        <div class="expired-codes-grid mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE172</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">COMMUNITY22</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE171</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE169</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE160</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">COMMUNITY21</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE167</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE165</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE158</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE155</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE150</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">COMMUNITY20</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE138</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">MERRYMERRYXMAS<3</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">COMMUNITY19</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE137</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">FREE135</div>
+          <div class="rounded bg-white/5 px-3 py-2 text-center font-mono text-xs text-slate-500 line-through sm:text-sm">HAPPYRIVALSWEEN</div>
+        </div>
+      </section>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          <span class="text-lightning-blue">03.</span> Why Do Roblox Rivals Codes Expire?
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Roblox Rivals codes expire for several reasons. Understanding this helps you know why you should redeem codes immediately instead of saving them.
+          </p>
+        </div>
+
+        <ul class="mt-5 max-w-4xl list-disc space-y-3 pl-6 text-slate-300">
+          <li><strong class="text-white">Time-limited promotions:</strong> Most codes are only active for 24-72 hours after release.</li>
+          <li><strong class="text-white">Limited redemptions:</strong> Some codes stop working after a certain number of redemptions.</li>
+          <li><strong class="text-white">Update cycles:</strong> Old codes are often disabled when new updates arrive.</li>
+          <li><strong class="text-white">Milestone achievements:</strong> Codes for specific visit goals expire once the goal is reached.</li>
+        </ul>
+      </section>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          Troubleshooting – Code Not Working?
+        </h2>
+
+        <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          If a Roblox Rivals new code does not work, check these common problems before assuming the code is expired.
+        </p>
+
+        <div class="mt-7 overflow-x-auto rounded-xl border border-white/10">
+          <table class="w-full min-w-[500px] border-collapse text-left text-sm">
+            <thead class="bg-white/[0.06] text-white">
+              <tr>
+                <th class="px-5 py-4 font-black">Problem</th>
+                <th class="px-5 py-4 font-black">Solution</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-white/10 text-slate-300">
+              <tr>
+                <td class="px-5 py-4 font-black text-lightning-blue">Typed incorrectly</td>
+                <td class="px-5 py-4">Copy and paste the code instead of typing manually</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-4 font-black text-lightning-blue">Extra spaces</td>
+                <td class="px-5 py-4">Remove spaces before or after the code</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-4 font-black text-lightning-blue">Already redeemed</td>
+                <td class="px-5 py-4">Most codes can only be used once per account</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-4 font-black text-lightning-blue">Code expired</td>
+                <td class="px-5 py-4">Check the active codes table for working alternatives</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="relative border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          Final Thoughts
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Roblox Rivals new codes are the easiest way to get free keys, wraps, and rewards. But codes expire fast, so you need to check regularly and redeem immediately when you find working ones.
+          </p>
+
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Bookmark this page and visit often. The active codes table is updated daily with fresh working codes. Share this guide with your friends so they can claim rewards too.
+          </p>
+
+          <nav class="article-cta mt-6 flex flex-col gap-3 sm:flex-row sm:justify-start">
+            <a href="/codes" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-dark-pink px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-white !no-underline transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-6 sm:py-4">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6V7Z"/>
+                <path d="M12 6v12"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">View All Active Codes</span>
+            </a>
+
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-6 sm:py-4">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Try Code Generator</span>
+            </a>
+          </nav>
+        </div>
+      </section>
+    </article>
+  `,
+},
+
+// ------------------------------------------------
+
+{
+  slug: 'roblox-rivals-best-weapons-2026',
+  title: 'Roblox Rivals Best Weapons 2026 – Top Guns, Loadouts & Free Skins Guide',
+  category: 'Weapons',
+  date: '2026-05-10',
+  image: '/img/articles/article_05_01.webp',
+  excerpt: 'Best Roblox Rivals weapons ranked by damage, range, and fire rate. Learn top loadouts, weapon stats, and how to get free skins and codes from our generator.',
+  content: `
+    <article class="relative overflow-hidden rounded-2xl bg-black p-5 text-slate-200 sm:p-8 lg:p-10">
+      <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
+
+      <style>
+        /* Responsive table styles */
+        .responsive-table {
+          width: 100%;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          margin: 1.5rem 0;
+          border-radius: 0.75rem;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .responsive-table table {
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 0.875rem;
+          min-width: 500px;
+        }
+        
+        .responsive-table th,
+        .responsive-table td {
+          padding: 0.75rem 1rem;
+          text-align: left;
+        }
+        
+        .responsive-table th {
+          background: rgba(0, 240, 255, 0.1);
+          font-weight: 700;
+          color: #00f0ff;
+        }
+        
+        .responsive-table td {
+          border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        @media (min-width: 640px) {
+          .responsive-table table {
+            font-size: 1rem;
+            min-width: auto;
+          }
+          .responsive-table th,
+          .responsive-table td {
+            padding: 1rem 1.25rem;
+          }
+        }
+        
+        /* Card-based mobile view for small screens */
+        @media (max-width: 640px) {
+          .responsive-table.card-view table thead {
+            display: none;
+          }
+          .responsive-table.card-view table tbody tr {
+            display: block;
+            margin-bottom: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.75rem;
+            padding: 1rem;
+          }
+          .responsive-table.card-view table tbody td {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border: none;
+            gap: 1rem;
+          }
+          .responsive-table.card-view table tbody td:before {
+            content: attr(data-label);
+            font-weight: 700;
+            color: #00f0ff;
+            width: 40%;
+            flex-shrink: 0;
+          }
+        }
+      </style>
+
+      <section class="relative border-b border-white/10 pb-10">
+        <p class="mb-4 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue">
+          ROBLOX RIVALS BEST WEAPONS 2026
+        </p>
+
+        <h2 class="max-w-4xl text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">
+          Best Roblox Rivals Weapons – Top Guns, Loadouts & How to Get Free Skins
+        </h2>
+
+        <div class="mt-6 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Choosing the <strong class="text-lightning-blue">best weapons in Roblox Rivals</strong> can completely change your performance. Some guns dominate close-range fights, others control long angles, and a few are perfect for beginners learning the game. But having the best weapon is only half the battle.
+          </p>
+
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            The other half is <strong class="text-dark-pink">unlocking rare skins and wraps</strong> to customize your loadout. This guide covers the best weapons ranked by damage, range, and fire rate, plus the best way to get free skins and codes for Roblox Rivals.
+          </p>
+        </div>
+
+        <nav class="article-cta mt-7 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <a href="/codes" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-dark-pink px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-white !no-underline transition-colors hover:bg-white hover:!text-black sm:px-6 sm:py-4 sm:text-base">
+            <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6V7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M12 6v12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 3"/>
+            </svg>
+            <span class="pointer-events-none leading-none !text-inherit">View Active Codes</span>
+          </a>
+
+          <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:px-6 sm:py-4 sm:text-base">
+            <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+            </svg>
+            <span class="pointer-events-none leading-none !text-inherit">Get Free Skins & Codes</span>
+          </a>
+        </nav>
+      </section>
+
+      <figure class="relative my-10 overflow-hidden rounded-xl border border-white/10">
+
+        <figcaption class="border-t border-white/10 bg-black px-4 py-3 text-sm text-slate-500">
+          Complete guide to the best Roblox Rivals weapons, loadouts, and how to unlock free skins.
+        </figcaption>
+      </figure>
+
+      <section class="relative mb-10">
+        <h2 class="border-l-4 border-lightning-blue pl-4 text-3xl font-black text-white">
+          Best Roblox Rivals Weapons Ranked
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Not all weapons are created equal. Some are statistically better than others depending on your playstyle, map, and skill level. Below is the official ranking of the best Roblox Rivals weapons for 2026.
+          </p>
+        </div>
+
+        <div class="responsive-table card-view">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Weapon</th>
+                <th>Best For</th>
+                <th>Difficulty</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Rank"><span class="text-yellow-400 font-black">S Tier</span></td>
+                <td data-label="Weapon"><span class="font-bold text-white">Assault Rifle</span></td>
+                <td data-label="Best For">All ranges, beginners to pros</td>
+                <td data-label="Difficulty">Easy</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-yellow-400 font-black">S Tier</span></td>
+                <td data-label="Weapon"><span class="font-bold text-white">Sniper</span></td>
+                <td data-label="Best For">Long range, patient players</td>
+                <td data-label="Difficulty">Hard</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-gray-300 font-black">A Tier</span></td>
+                <td data-label="Weapon"><span class="font-bold text-white">Shotgun</span></td>
+                <td data-label="Best For">Close range, aggressive play</td>
+                <td data-label="Difficulty">Medium</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-gray-300 font-black">A Tier</span></td>
+                <td data-label="Weapon"><span class="font-bold text-white">Burst Rifle</span></td>
+                <td data-label="Best For">Medium range, disciplined aim</td>
+                <td data-label="Difficulty">Medium</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-gray-300 font-black">A Tier</span></td>
+                <td data-label="Weapon"><span class="font-bold text-white">Uzi</span></td>
+                <td data-label="Best For">Close range, fast movement</td>
+                <td data-label="Difficulty">Medium</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-amber-600 font-black">B Tier</span></td>
+                <td data-label="Weapon"><span class="font-bold text-white">Revolver</span></td>
+                <td data-label="Best For">Secondary, finishing enemies</td>
+                <td data-label="Difficulty">Hard</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-amber-600 font-black">B Tier</span></td>
+                <td data-label="Weapon"><span class="font-bold text-white">Handgun</span></td>
+                <td data-label="Best For">Reliable backup weapon</td>
+                <td data-label="Difficulty">Easy</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          <span class="text-lightning-blue">01.</span> Best Loadouts for Each Playstyle
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            The best weapon alone won't win matches. You need a complete loadout that covers your primary range, backup range, and utility needs.
+          </p>
+        </div>
+
+        <div class="responsive-table card-view">
+          <table>
+            <thead>
+              <tr>
+                <th>Playstyle</th>
+                <th>Primary</th>
+                <th>Secondary</th>
+                <th>Utility</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Playstyle"><span class="text-lightning-blue font-black">Balanced</span></td>
+                <td data-label="Primary">Assault Rifle</td>
+                <td data-label="Secondary">Handgun</td>
+                <td data-label="Utility">Grenade</td>
+              </tr>
+              <tr>
+                <td data-label="Playstyle"><span class="text-lightning-blue font-black">Aggressive</span></td>
+                <td data-label="Primary">Shotgun or Uzi</td>
+                <td data-label="Secondary">Handgun</td>
+                <td data-label="Utility">Flash</td>
+              </tr>
+              <tr>
+                <td data-label="Playstyle"><span class="text-lightning-blue font-black">Sniper</span></td>
+                <td data-label="Primary">Sniper Rifle</td>
+                <td data-label="Secondary">Revolver</td>
+                <td data-label="Utility">Smoke</td>
+              </tr>
+              <tr>
+                <td data-label="Playstyle"><span class="text-lightning-blue font-black">Burst Control</span></td>
+                <td data-label="Primary">Burst Rifle</td>
+                <td data-label="Secondary">Handgun</td>
+                <td data-label="Utility">Grenade</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Generator Promotion Section -->
+      <aside class="relative mb-10 overflow-hidden border-2 border-lightning-blue/30 bg-gradient-to-r from-lightning-blue/10 to-dark-pink/10 p-5 sm:p-6 lg:p-8">
+        <div class="absolute inset-0 pattern-squares opacity-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 h-32 w-32 bg-lightning-blue/20 blur-[50px] pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <p class="mb-3 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue">
+            Free Skins & Rewards
+          </p>
+
+          <h2 class="text-xl font-display font-bold text-white sm:text-2xl">
+            Want Free Weapon Skins and Codes?
+          </h2>
+
+          <p class="mt-2 max-w-3xl text-sm leading-7 text-slate-300">
+            Unlock exclusive weapon skins, wraps, charms, and free keys for Roblox Rivals. Our generator helps you discover working codes and rewards without wasting time on expired lists.
+          </p>
+
+          <div class="mt-6">
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-6 py-4 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-8 sm:text-base">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Get Free Skins & Codes Now</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <figure class="mb-10 overflow-hidden rounded-xl border border-white/10">
+        <img
+          src="/img/articles/article_05_02.jpg"
+          alt="Roblox Rivals weapon skins and free codes generator"
+          class="h-auto w-full object-cover"
+          loading="lazy"
+        />
+        <figcaption class="border-t border-white/10 bg-black px-4 py-3 text-sm text-slate-500">
+          Unlock rare weapon skins and wraps using our free generator.
+        </figcaption>
+      </figure>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          <span class="text-dark-pink">02.</span> Weapon Stats Comparison
+        </h2>
+
+        <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Understanding weapon stats helps you choose the right gun for each situation. Below is a detailed comparison of damage, fire rate, and effective range.
+        </p>
+
+        <div class="responsive-table card-view">
+          <table>
+            <thead>
+              <tr>
+                <th>Weapon</th>
+                <th>Damage</th>
+                <th>Fire Rate</th>
+                <th>Range</th>
+                <th>Best Use</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Weapon"><span class="font-bold text-white">Assault Rifle</span></td>
+                <td data-label="Damage">Medium</td>
+                <td data-label="Fire Rate">Fast</td>
+                <td data-label="Range">Medium</td>
+                <td data-label="Best Use">All situations</td>
+              </tr>
+              <tr>
+                <td data-label="Weapon"><span class="font-bold text-white">Sniper</span></td>
+                <td data-label="Damage">Very High</td>
+                <td data-label="Fire Rate">Very Slow</td>
+                <td data-label="Range">Long</td>
+                <td data-label="Best Use">Holding angles</td>
+              </tr>
+              <tr>
+                <td data-label="Weapon"><span class="font-bold text-white">Shotgun</span></td>
+                <td data-label="Damage">Very High</td>
+                <td data-label="Fire Rate">Slow</td>
+                <td data-label="Range">Short</td>
+                <td data-label="Best Use">Close combat</td>
+              </tr>
+              <tr>
+                <td data-label="Weapon"><span class="font-bold text-white">Burst Rifle</span></td>
+                <td data-label="Damage">High</td>
+                <td data-label="Fire Rate">Medium</td>
+                <td data-label="Range">Medium-Long</td>
+                <td data-label="Best Use">Tap firing</td>
+              </tr>
+              <tr>
+                <td data-label="Weapon"><span class="font-bold text-white">Uzi</span></td>
+                <td data-label="Damage">Low</td>
+                <td data-label="Fire Rate">Very Fast</td>
+                <td data-label="Range">Short</td>
+                <td data-label="Best Use">Rush down</td>
+              </tr>
+              <tr>
+                <td data-label="Weapon"><span class="font-bold text-white">Revolver</span></td>
+                <td data-label="Damage">High</td>
+                <td data-label="Fire Rate">Slow</td>
+                <td data-label="Range">Medium</td>
+                <td data-label="Best Use">Finishing enemies</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          <span class="text-lightning-blue">03.</span> How to Get Free Weapon Skins & Wraps
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Customizing your weapons with rare skins and wraps makes your loadout feel unique. Here are the best ways to unlock free cosmetics for Roblox Rivals.
+          </p>
+        </div>
+
+        <h3 class="mt-8 text-2xl font-black text-lightning-blue">Method 1: Code Generator (Fastest)</h3>
+        <p class="mt-4 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          The fastest way to get free skins and codes is using our <strong class="text-dark-pink">Roblox Rivals generator</strong>. It helps you discover working codes for weapon wraps, keys, and exclusive rewards without searching through expired lists.
+        </p>
+
+        <div class="mt-4">
+          <a href="/generator" class="group inline-flex min-h-[48px] items-center justify-center gap-2 bg-dark-pink px-5 py-3 text-sm font-bold uppercase tracking-wider text-white transition-colors hover:bg-white hover:text-black">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+            </svg>
+            <span>Try Generator Now</span>
+          </a>
+        </div>
+
+        <h3 class="mt-8 text-2xl font-black text-lightning-blue">Method 2: Active Codes</h3>
+        <p class="mt-4 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Some codes give free weapon wraps and charms. Check the active codes page regularly for new rewards.
+        </p>
+
+        <div class="mt-4">
+          <a href="/codes" class="group inline-flex min-h-[48px] items-center justify-center gap-2 border border-lightning-blue bg-transparent px-5 py-3 text-sm font-bold uppercase tracking-wider text-lightning-blue transition-colors hover:bg-lightning-blue hover:text-black">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6V7Z"/>
+              <path d="M12 6v12"/>
+            </svg>
+            <span>View Active Codes</span>
+          </a>
+        </div>
+
+        <h3 class="mt-8 text-2xl font-black text-lightning-blue">Method 3: Daily Rewards</h3>
+        <p class="mt-4 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Log in to Roblox Rivals every day to claim daily rewards. Some days include free keys and skin cases.
+        </p>
+
+        <h3 class="mt-8 text-2xl font-black text-lightning-blue">Method 4: Season Pass</h3>
+        <p class="mt-4 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          The free track of the season pass often includes weapon wraps and charms. Play matches to level up your pass.
+        </p>
+      </section>
+
+      <aside class="relative mb-10 overflow-hidden border-2 border-dark-pink/30 bg-gradient-to-r from-dark-pink/10 to-lightning-blue/10 p-5 sm:p-6 lg:p-8">
+        <div class="absolute inset-0 pattern-squares opacity-10 pointer-events-none"></div>
+        <div class="absolute left-0 top-0 h-32 w-32 bg-dark-pink/20 blur-[50px] pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <p class="mb-3 text-xs font-black uppercase tracking-[0.25em] text-dark-pink">
+            Limited Time
+          </p>
+
+          <h2 class="text-xl font-display font-bold text-white sm:text-2xl">
+            Get Exclusive Weapon Skins Today
+          </h2>
+
+          <p class="mt-2 max-w-3xl text-sm leading-7 text-slate-300">
+            Don't waste hours searching for expired codes. Our generator gives you fresh working codes for Roblox Rivals skins, wraps, and keys instantly.
+          </p>
+
+          <div class="mt-6">
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-dark-pink px-6 py-4 text-center text-sm font-bold uppercase tracking-wider !text-white !no-underline transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-8 sm:text-base">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Generate Free Skins Now</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          How to Choose Weapons by Map
+        </h2>
+
+        <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Different maps reward different weapons. Here is a quick guide to choosing the best weapon based on the map you are playing.
+        </p>
+
+        <div class="responsive-table card-view">
+          <table>
+            <thead>
+              <tr>
+                <th>Map Type</th>
+                <th>Example Map</th>
+                <th>Best Weapons</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Map Type"><span class="text-lightning-blue font-black">Close Quarters</span></td>
+                <td data-label="Example Map">Ruined Temple</td>
+                <td data-label="Best Weapons">Shotgun, Uzi</td>
+              </tr>
+              <tr>
+                <td data-label="Map Type"><span class="text-lightning-blue font-black">Open Fields</span></td>
+                <td data-label="Example Map">Arctic Base</td>
+                <td data-label="Best Weapons">Sniper, Assault Rifle</td>
+              </tr>
+              <tr>
+                <td data-label="Map Type"><span class="text-lightning-blue font-black">Mixed</span></td>
+                <td data-label="Example Map">Neon City</td>
+                <td data-label="Best Weapons">Assault Rifle, Burst Rifle</td>
+              </tr>
+              <tr>
+                <td data-label="Map Type"><span class="text-lightning-blue font-black">Flank Heavy</span></td>
+                <td data-label="Example Map">Crossfire</td>
+                <td data-label="Best Weapons">Uzi, Shotgun, Handgun</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          Common Weapon Mistakes to Avoid
+        </h2>
+
+        <ul class="mt-5 max-w-4xl list-disc space-y-3 pl-6 text-slate-300">
+          <li><strong class="text-white">Reloading too often:</strong> Switch to your secondary instead of reloading in the open.</li>
+          <li><strong class="text-white">Wrong range fights:</strong> Don't use a shotgun on long-range maps.</li>
+          <li><strong class="text-white">Ignoring utility:</strong> Grenades and flashes win fights before you shoot.</li>
+          <li><strong class="text-white">Copying pro loadouts:</strong> Use weapons that fit your skill level.</li>
+          <li><strong class="text-white">No backup weapon:</strong> Always carry a reliable secondary.</li>
+        </ul>
+      </section>
+
+      <section class="relative border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          Final Thoughts
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            The best Roblox Rivals weapons are the ones that fit your playstyle, aim, and the map you are playing. Start with the Assault Rifle if you are new, then experiment with Shotgun, Sniper, or Burst Rifle as you improve.
+          </p>
+
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            And remember – having the best weapon is even better when you have <strong class="text-lightning-blue">rare skins and wraps</strong>. Use our generator to unlock free skins and codes for Roblox Rivals today.
+          </p>
+
+          <nav class="article-cta mt-6 flex flex-col gap-3 sm:flex-row sm:justify-start">
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-6 sm:py-4">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Get Free Skins & Codes</span>
+            </a>
+
+            <a href="/codes" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-dark-pink px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-white !no-underline transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-6 sm:py-4">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6V7Z"/>
+                <path d="M12 6v12"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">View Active Codes</span>
+            </a>
+          </nav>
+        </div>
+      </section>
+    </article>
+  `,
+},
+
+// ----------------------------------------------------
+
+
+{
+  slug: 'roblox-rivals-ranked-mode-guide',
+  title: 'Roblox Rivals Ranked Mode Guide – How to Climb, Ranks List & Free Rewards',
+  category: 'Ranked',
+  date: '2026-05-10',
+  image: '/img/articles/article_06_01.jpg',
+  excerpt: 'Complete Roblox Rivals ranked mode guide. Learn all ranks, ELO system, placement matches, climbing tips, and how to get free keys and skins from our generator.',
+  content: `
+    <article class="relative overflow-hidden rounded-2xl bg-black p-5 text-slate-200 sm:p-8 lg:p-10">
+      <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
+
+      <style>
+        .responsive-table {
+          width: 100%;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          margin: 1.5rem 0;
+          border-radius: 0.75rem;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .responsive-table table {
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 0.875rem;
+          min-width: 500px;
+        }
+        
+        .responsive-table th,
+        .responsive-table td {
+          padding: 0.75rem 1rem;
+          text-align: left;
+        }
+        
+        .responsive-table th {
+          background: rgba(0, 240, 255, 0.1);
+          font-weight: 700;
+          color: #00f0ff;
+        }
+        
+        .responsive-table td {
+          border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        @media (min-width: 640px) {
+          .responsive-table table {
+            font-size: 1rem;
+            min-width: auto;
+          }
+          .responsive-table th,
+          .responsive-table td {
+            padding: 1rem 1.25rem;
+          }
+        }
+        
+        @media (max-width: 640px) {
+          .responsive-table.card-view table thead {
+            display: none;
+          }
+          .responsive-table.card-view table tbody tr {
+            display: block;
+            margin-bottom: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.75rem;
+            padding: 1rem;
+          }
+          .responsive-table.card-view table tbody td {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border: none;
+            gap: 1rem;
+          }
+          .responsive-table.card-view table tbody td:before {
+            content: attr(data-label);
+            font-weight: 700;
+            color: #00f0ff;
+            width: 40%;
+            flex-shrink: 0;
+          }
+        }
+      </style>
+
+      <section class="relative border-b border-white/10 pb-10">
+        <p class="mb-4 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue">
+          ROBLOX RIVALS RANKED MODE GUIDE
+        </p>
+
+        <h2 class="max-w-4xl text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">
+          Roblox Rivals Ranked Mode – Complete Guide to Climbing the Ladder
+        </h2>
+
+        <div class="mt-6 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Ranked mode in <strong class="text-lightning-blue">Roblox Rivals</strong> is where real competition begins. Unlike casual matches, every win and loss affects your ELO and determines your position on the ranked ladder. Climbing from Bronze to Archnemesis requires skill, consistency, and smart decision-making.
+          </p>
+
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            This guide covers everything you need to know about <strong class="text-dark-pink">Roblox Rivals ranked mode</strong>: all ranks and ELO requirements, placement matches, climbing strategies, common mistakes, and how to get free rewards to enhance your competitive journey.
+          </p>
+        </div>
+
+        <nav class="article-cta mt-7 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <a href="/codes" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-dark-pink px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-white !no-underline transition-colors hover:bg-white hover:!text-black sm:px-6 sm:py-4 sm:text-base">
+            <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6V7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M12 6v12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 3"/>
+            </svg>
+            <span class="pointer-events-none leading-none !text-inherit">View Active Codes</span>
+          </a>
+
+          <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:px-6 sm:py-4 sm:text-base">
+            <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+            </svg>
+            <span class="pointer-events-none leading-none !text-inherit">Get Free Ranked Rewards</span>
+          </a>
+        </nav>
+      </section>
+
+      <figure class="relative my-10 overflow-hidden rounded-xl border border-white/10">
+        <img
+          src="/img/articles/ranked-mode-guide.jpg"
+          alt="Roblox Rivals ranked mode guide with ranks ELO and climbing tips"
+          class="h-auto w-full object-cover"
+          loading="eager"
+        />
+        <figcaption class="border-t border-white/10 bg-black px-4 py-3 text-sm text-slate-500">
+          Complete Roblox Rivals ranked mode guide – learn all ranks, ELO requirements, and climbing strategies.
+        </figcaption>
+      </figure>
+
+      <section class="relative mb-10">
+        <h2 class="border-l-4 border-lightning-blue pl-4 text-3xl font-black text-white">
+          All Roblox Rivals Ranks & ELO Requirements
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Roblox Rivals features 8 competitive ranks, each with three divisions (Tier I, II, and III). The higher your rank, the more ELO you need and the harder your opponents become.
+          </p>
+        </div>
+
+        <div class="responsive-table card-view">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Tier I</th>
+                <th>Tier II</th>
+                <th>Tier III</th>
+                <th>Skill Level</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Rank"><span class="text-amber-600 font-black">Bronze</span></td>
+                <td data-label="Tier I">0+ ELO</td>
+                <td data-label="Tier II">200+ ELO</td>
+                <td data-label="Tier III">400+ ELO</td>
+                <td data-label="Skill Level">Learning basics</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-gray-300 font-black">Silver</span></td>
+                <td data-label="Tier I">600+ ELO</td>
+                <td data-label="Tier II">800+ ELO</td>
+                <td data-label="Tier III">1000+ ELO</td>
+                <td data-label="Skill Level">Building consistency</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-yellow-400 font-black">Gold</span></td>
+                <td data-label="Tier I">1200+ ELO</td>
+                <td data-label="Tier II">1400+ ELO</td>
+                <td data-label="Tier III">1600+ ELO</td>
+                <td data-label="Skill Level">Solid mechanics</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-cyan-400 font-black">Platinum</span></td>
+                <td data-label="Tier I">1800+ ELO</td>
+                <td data-label="Tier II">2000+ ELO</td>
+                <td data-label="Tier III">2200+ ELO</td>
+                <td data-label="Skill Level">Above average</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-blue-400 font-black">Diamond</span></td>
+                <td data-label="Tier I">2400+ ELO</td>
+                <td data-label="Tier II">2600+ ELO</td>
+                <td data-label="Tier III">2800+ ELO</td>
+                <td data-label="Skill Level">High skill</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-purple-400 font-black">Onyx</span></td>
+                <td data-label="Tier I">3000+ ELO</td>
+                <td data-label="Tier II">3200+ ELO</td>
+                <td data-label="Tier III">3400+ ELO</td>
+                <td data-label="Skill Level">Elite players</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-red-400 font-black">Nemesis</span></td>
+                <td data-label="Tier I">3600+ ELO</td>
+                <td data-label="Tier II" class="text-slate-500">—</td>
+                <td data-label="Tier III" class="text-slate-500">—</td>
+                <td data-label="Skill Level">Top competitive</td>
+              </tr>
+              <tr>
+                <td data-label="Rank"><span class="text-pink-400 font-black">Archnemesis</span></td>
+                <td data-label="Tier I">Top 200</td>
+                <td data-label="Tier II" class="text-slate-500">—</td>
+                <td data-label="Tier III" class="text-slate-500">—</td>
+                <td data-label="Skill Level">Leaderboard elite</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Generator Promotion Section -->
+      <aside class="relative mb-10 overflow-hidden border-2 border-lightning-blue/30 bg-gradient-to-r from-lightning-blue/10 to-dark-pink/10 p-5 sm:p-6 lg:p-8">
+        <div class="absolute inset-0 pattern-squares opacity-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 h-32 w-32 bg-lightning-blue/20 blur-[50px] pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <p class="mb-3 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue">
+            Free Ranked Rewards
+          </p>
+
+          <h2 class="text-xl font-display font-bold text-white sm:text-2xl">
+            Get Free Keys & Skins for Ranked Mode
+          </h2>
+
+          <p class="mt-2 max-w-3xl text-sm leading-7 text-slate-300">
+            Climbing ranked is easier when you have the best weapons and skins. Use our generator to unlock free keys, wraps, and rewards for Roblox Rivals.
+          </p>
+
+          <div class="mt-6">
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-6 py-4 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-8 sm:text-base">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Get Free Ranked Rewards Now</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          <span class="text-lightning-blue">01.</span> How Ranked Mode Works
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Ranked mode in Roblox Rivals is different from casual play. Every match affects your ELO, and your ELO determines your rank. Winning increases your ELO, losing decreases it. The amount gained or lost depends on your opponent's rank and your performance.
+          </p>
+        </div>
+
+        <div class="responsive-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Casual Mode</th>
+                <th>Ranked Mode</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Feature"><span class="text-lightning-blue font-black">ELO Changes</span></td>
+                <td data-label="Casual">No</td>
+                <td data-label="Ranked">Yes</td>
+              </tr>
+              <tr>
+                <td data-label="Feature"><span class="text-lightning-blue font-black">Rank Visibility</span></td>
+                <td data-label="Casual">No</td>
+                <td data-label="Ranked">Yes</td>
+              </tr>
+              <tr>
+                <td data-label="Feature"><span class="text-lightning-blue font-black">Placement Matches</span></td>
+                <td data-label="Casual">No</td>
+                <td data-label="Ranked">Yes (first 5-10 matches)</td>
+              </tr>
+              <tr>
+                <td data-label="Feature"><span class="text-lightning-blue font-black">Season Rewards</span></td>
+                <td data-label="Casual">No</td>
+                <td data-label="Ranked">Yes</td>
+              </tr>
+              <tr>
+                <td data-label="Feature"><span class="text-lightning-blue font-black">Skill Matching</span></td>
+                <td data-label="Casual">Loose</td>
+                <td data-label="Ranked">Strict (similar ranks)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="mt-8 text-2xl font-black text-lightning-blue">Placement Matches</h3>
+        <p class="mt-4 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Your first 5 to 10 ranked matches are placement matches. They determine your starting rank. Winning most placements can place you in Gold or Platinum. Losing most placements may start you in Bronze or Silver. Play your placement matches seriously – they save you dozens of matches of climbing.
+        </p>
+
+        <h3 class="mt-8 text-2xl font-black text-lightning-blue">ELO System Explained</h3>
+        <p class="mt-4 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          ELO is the number behind your rank. You gain ELO by winning matches. You lose ELO by losing matches. The amount of ELO gained or lost depends on:
+        </p>
+        <ul class="mt-3 max-w-4xl list-disc space-y-2 pl-6 text-slate-300">
+          <li>Your opponent's rank (beating higher-ranked players gives more ELO)</li>
+          <li>Your performance in the match (MVP bonuses may exist)</li>
+          <li>Win/loss streaks (winning multiple matches in a row gives bonus ELO)</li>
+        </ul>
+      </section>
+
+      <figure class="mb-10 overflow-hidden rounded-xl border border-white/10">
+        <img
+          src="/img/articles/ranked-elo-system.jpg"
+          alt="Roblox Rivals ranked ELO system and climbing strategy"
+          class="h-auto w-full object-cover"
+          loading="lazy"
+        />
+        <figcaption class="border-t border-white/10 bg-black px-4 py-3 text-sm text-slate-500">
+          Understanding ELO is the first step to climbing the Roblox Rivals ranked ladder.
+        </figcaption>
+      </figure>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          <span class="text-dark-pink">02.</span> How to Climb Ranked Faster
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Climbing ranked is not just about playing many matches. If you repeat bad habits, more matches mean more losses. Here are proven strategies to climb faster.
+          </p>
+        </div>
+
+        <div class="responsive-table card-view mt-5">
+          <table>
+            <thead>
+              <tr>
+                <th>Strategy</th>
+                <th>Why It Works</th>
+                <th>Action Step</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Strategy"><span class="text-lightning-blue font-black">Master One Loadout</span></td>
+                <td data-label="Why It Works">Consistency beats variety</td>
+                <td data-label="Action Step">Stick to 1-2 weapons for an entire week</td>
+              </tr>
+              <tr>
+                <td data-label="Strategy"><span class="text-lightning-blue font-black">Warm Up Before Ranked</span></td>
+                <td data-label="Why It Works">Cold aim loses fights</td>
+                <td data-label="Action Step">Play 10-15 minutes of casual or aim trainer</td>
+              </tr>
+              <tr>
+                <td data-label="Strategy"><span class="text-lightning-blue font-black">Stop Tilt Queuing</span></td>
+                <td data-label="Why It Works">Angry players make bad decisions</td>
+                <td data-label="Action Step">Take a 10-minute break after 2 losses in a row</td>
+              </tr>
+              <tr>
+                <td data-label="Strategy"><span class="text-lightning-blue font-black">Watch Your Replays</span></td>
+                <td data-label="Why It Works">You can't fix what you don't see</td>
+                <td data-label="Action Step">Record and review one match per day</td>
+              </tr>
+              <tr>
+                <td data-label="Strategy"><span class="text-lightning-blue font-black">Learn One Map at a Time</span></td>
+                <td data-label="Why It Works">Map knowledge wins close rounds</td>
+                <td data-label="Action Step">Master angles and callouts on 2-3 maps</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <aside class="relative mb-10 overflow-hidden border-2 border-dark-pink/30 bg-gradient-to-r from-dark-pink/10 to-lightning-blue/10 p-5 sm:p-6 lg:p-8">
+        <div class="absolute inset-0 pattern-squares opacity-10 pointer-events-none"></div>
+        <div class="absolute left-0 top-0 h-32 w-32 bg-dark-pink/20 blur-[50px] pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <p class="mb-3 text-xs font-black uppercase tracking-[0.25em] text-dark-pink">
+            Boost Your Ranked Progress
+          </p>
+
+          <h2 class="text-xl font-display font-bold text-white sm:text-2xl">
+            Get Free Rewards to Dominate Ranked
+          </h2>
+
+          <p class="mt-2 max-w-3xl text-sm leading-7 text-slate-300">
+            Better skins and weapons won't make you a better player alone, but they make your ranked grind more enjoyable. Use our generator to unlock free codes and rewards.
+          </p>
+
+          <div class="mt-6">
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-dark-pink px-6 py-4 text-center text-sm font-bold uppercase tracking-wider !text-white !no-underline transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-8 sm:text-base">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Get Free Ranked Rewards</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          <span class="text-lightning-blue">03.</span> Best Loadouts for Each Rank
+        </h2>
+
+        <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Different ranks require different strategies. Here are the best loadouts for each skill level in Roblox Rivals ranked mode.
+        </p>
+
+        <div class="responsive-table card-view mt-5">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank Range</th>
+                <th>Primary Weapon</th>
+                <th>Secondary</th>
+                <th>Playstyle Focus</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Rank Range"><span class="text-amber-600 font-black">Bronze - Silver</span></td>
+                <td data-label="Primary">Assault Rifle</td>
+                <td data-label="Secondary">Handgun</td>
+                <td data-label="Playstyle Focus">Learning aim & movement</td>
+              </tr>
+              <tr>
+                <td data-label="Rank Range"><span class="text-yellow-400 font-black">Gold - Platinum</span></td>
+                <td data-label="Primary">Assault Rifle or Burst Rifle</td>
+                <td data-label="Secondary">Handgun or Revolver</td>
+                <td data-label="Playstyle Focus">Map control & positioning</td>
+              </tr>
+              <tr>
+                <td data-label="Rank Range"><span class="text-blue-400 font-black">Diamond - Onyx</span></td>
+                <td data-label="Primary">Sniper, Shotgun, or Burst Rifle</td>
+                <td data-label="Secondary">Revolver or Uzi</td>
+                <td data-label="Playstyle Focus">Specialized roles & team play</td>
+              </tr>
+              <tr>
+                <td data-label="Rank Range"><span class="text-red-400 font-black">Nemesis+</span></td>
+                <td data-label="Primary">Any (mastered)</td>
+                <td data-label="Secondary">Situational</td>
+                <td data-label="Playstyle Focus">Perfect execution & adaptability</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          Common Mistakes That Stop Your Climb
+        </h2>
+
+        <div class="responsive-table card-view mt-5">
+          <table>
+            <thead>
+              <tr>
+                <th>Mistake</th>
+                <th>Why It Hurts</th>
+                <th>Fix</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Mistake"><span class="text-dark-pink font-black">Playing on autopilot</span></td>
+                <td data-label="Why It Hurts">You stop learning and improving</td>
+                <td data-label="Fix">Actively think about every decision</td>
+              </tr>
+              <tr>
+                <td data-label="Mistake"><span class="text-dark-pink font-black">Blaming teammates</span></td>
+                <td data-label="Why It Hurts">You ignore your own mistakes</td>
+                <td data-label="Fix">Focus only on what you can control</td>
+              </tr>
+              <tr>
+                <td data-label="Mistake"><span class="text-dark-pink font-black">Playing tired or distracted</span></td>
+                <td data-label="Why It Hurts">Slow reactions and bad decisions</td>
+                <td data-label="Fix">Only play ranked when focused</td>
+              </tr>
+              <tr>
+                <td data-label="Mistake"><span class="text-dark-pink font-black">Changing loadouts constantly</span></td>
+                <td data-label="Why It Hurts">You never master any weapon</td>
+                <td data-label="Fix">Stick to one loadout for 10+ matches</td>
+              </tr>
+              <tr>
+                <td data-label="Mistake"><span class="text-dark-pink font-black">Skipping warmup</span></td>
+                <td data-label="Why It Hurts">First match is your worst match</td>
+                <td data-label="Fix">Always warm up before queuing ranked</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          Season Rewards – Why Ranked Matters
+        </h2>
+
+        <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Each ranked season (usually lasting 2-3 months) offers exclusive rewards based on your highest rank achieved. These rewards cannot be obtained anywhere else.
+        </p>
+
+        <div class="responsive-table card-view mt-5">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank Achieved</th>
+                <th>Typical Rewards</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Rank Achieved">Bronze - Silver</td>
+                <td data-label="Typical Rewards">Seasonal badge, small key pack</td>
+              </tr>
+              <tr>
+                <td data-label="Rank Achieved">Gold - Platinum</td>
+                <td data-label="Typical Rewards">Weapon wrap, badge, key pack</td>
+              </tr>
+              <tr>
+                <td data-label="Rank Achieved">Diamond - Onyx</td>
+                <td data-label="Typical Rewards">Exclusive skin, animated badge, large key pack</td>
+              </tr>
+              <tr>
+                <td data-label="Rank Achieved">Nemesis - Archnemesis</td>
+                <td data-label="Typical Rewards">Legendary skin, leaderboard badge, title, massive key pack</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="relative border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">
+          Final Thoughts
+        </h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Climbing the Roblox Rivals ranked ladder takes time, patience, and consistent improvement. Focus on mastering one loadout, warming up before matches, and learning from your losses instead of getting frustrated.
+          </p>
+
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Remember that ranked is a marathon, not a sprint. Every match is an opportunity to get better, regardless of whether you win or lose. And while you climb, don't forget to claim free rewards from our generator to make your journey more rewarding.
+          </p>
+
+          <nav class="article-cta mt-6 flex flex-col gap-3 sm:flex-row sm:justify-start">
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-6 sm:py-4">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Get Free Ranked Rewards</span>
+            </a>
+
+            <a href="/codes" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-dark-pink px-5 py-3 text-center text-sm font-bold uppercase tracking-wider !text-white !no-underline transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-6 sm:py-4">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6V7Z"/>
+                <path d="M12 6v12"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">View Active Codes</span>
+            </a>
+          </nav>
+        </div>
+      </section>
+    </article>
+  `,
+},
+
+
+  // --------------------------------------------------------------
 {
   slug: 'roblox-rivals-guns',
   title: 'Roblox Rivals Guns: Best Weapons, Loadouts & Complete Guide',
