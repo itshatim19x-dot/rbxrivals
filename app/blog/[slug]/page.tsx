@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import Script from 'next/script';
 import { blogPosts } from '@/lib/data';
 import { ArrowLeft, Calendar, Tag, User, Clock, ChevronRight } from 'lucide-react';
 import AnimatedSection from '@/components/ui/AnimatedSection';
@@ -238,7 +239,29 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
 
         {/* Ads - Client Component only */}
-        <ClientAdComponent />
+    <div className="mt-10 space-y-4">
+      <div className="w-full bg-white/5 border border-white/10 rounded-lg flex flex-col items-center justify-center text-slate-500 text-sm p-8">
+        <Script 
+          id="adsterra-options"
+          strategy="afterInteractive"
+        >
+          {`
+            window.atOptions = {
+              'key' : '80851bf3cbcb333b69434b59b60041bb',
+              'format' : 'iframe',
+              'height' : 250,
+              'width' : 300,
+              'params' : {}
+            };
+          `}
+        </Script>
+        <Script 
+          src="https://dessertaskingfund.com/80851bf3cbcb333b69434b59b60041bb/invoke.js"
+          strategy="afterInteractive"
+        />
+        <div className="text-center text-xs text-slate-500">Advertisement</div>
+      </div>
+    </div>
 
       </div>
     </>
