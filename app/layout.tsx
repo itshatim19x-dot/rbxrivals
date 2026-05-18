@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 import { GoogleAnalytics } from '@next/third-parties/google';
 const siteUrl = 'https://rbxrivals.com';
 
@@ -180,6 +181,8 @@ export default function RootLayout({
         <main className="relative">
           {children}
         </main>
+
+        <Footer />
       </body>
      <GoogleAnalytics gaId="G-24XM6DQBPS" />
     </html>

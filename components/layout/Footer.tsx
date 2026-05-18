@@ -17,17 +17,6 @@ export default function Footer() {
             <p className="text-sm text-slate-400 mb-6 max-w-sm">
               Your ultimate destination for Roblox Rivals codes, skins, guides, and news. We are an unofficial community site.
             </p>
-            {/* <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all">
-                <Youtube className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all">
-                <Github className="w-5 h-5" />
-              </a>
-            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -45,9 +34,11 @@ export default function Footer() {
           <div>
             <h3 className="font-display font-medium text-white mb-4">Legal</h3>
             <ul className="flex flex-col gap-3">
-              <li><Link href="/terms" className="text-sm text-slate-400 hover:text-white transition-colors">Terms of Service</Link></li>
-              <li><Link href="/privacy" className="text-sm text-slate-400 hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/contact" className="text-sm text-slate-400 hover:text-white transition-colors">Contact Us</Link></li>
+              <li><Link href="/legal/privacy-policy" className="text-sm text-slate-400 hover:text-lightning-blue transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/legal/terms-of-service" className="text-sm text-slate-400 hover:text-lightning-blue transition-colors">Terms of Service</Link></li>
+              <li><Link href="/legal/cookie-policy" className="text-sm text-slate-400 hover:text-lightning-blue transition-colors">Cookie Policy</Link></li>
+              <li><Link href="/legal/dmca" className="text-sm text-slate-400 hover:text-lightning-blue transition-colors">DMCA Notice</Link></li>
+              <li><Link href="/contact" className="text-sm text-slate-400 hover:text-lightning-blue transition-colors">Contact Us</Link></li>
             </ul>
           </div>
 

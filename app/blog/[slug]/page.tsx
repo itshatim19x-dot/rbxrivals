@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { blogPosts } from '@/lib/data';
 import { ArrowLeft, Calendar, Tag, User, Clock, ChevronRight } from 'lucide-react';
 import AnimatedSection from '@/components/ui/AnimatedSection';
+import ClientAdComponent from '@/components/ClientAdComponent';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -59,6 +60,11 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   const readTime = Math.ceil(post.content.length / 1000);
+  const formattedDate = new Date(post.date).toLocaleDateString(undefined, {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
 
   return (
     <>
@@ -80,6 +86,7 @@ export default async function BlogPostPage({ params }: Props) {
       {/* Hero Section */}
       <div className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
             src={post.image}
             alt={post.title}
@@ -104,9 +111,9 @@ export default async function BlogPostPage({ params }: Props) {
                 <Tag className="w-3 h-3" />
                 {post.category}
               </span>
-              <span className="flex items-center gap-1.5 text-slate-400 text-sm">
+              <span className="flex items-center gap-1.5 text-slate-400 text-sm" suppressHydrationWarning>
                 <Calendar className="w-3.5 h-3.5" />
-                {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                {formattedDate}
               </span>
               <span className="flex items-center gap-1.5 text-slate-400 text-sm">
                 <Clock className="w-3.5 h-3.5" />
@@ -188,50 +195,50 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {relatedArticles.map((relatedPost) => (
-              <Link 
-                key={relatedPost.slug} 
-                href={`/blog/${relatedPost.slug}`}
-                className="group bg-surface/50 border border-white/5 hover:border-lightning-blue/40 rounded-xl overflow-hidden transition-all hover:transform hover:-translate-y-1 duration-300"
-              >
-                <div className="relative h-40 overflow-hidden">
-                  <img 
-                    src={relatedPost.image}
-                    alt={relatedPost.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <span className="absolute bottom-2 left-3 text-[10px] font-bold uppercase tracking-wider text-lightning-blue bg-black/50 px-2 py-0.5 rounded">
-                    {relatedPost.category}
-                  </span>
-                </div>
-                <div className="p-4">
-                  <div className="flex items-center gap-2 text-xs text-slate-500 mb-2">
-                    <Calendar className="w-3 h-3" />
-                    {new Date(relatedPost.date).toLocaleDateString()}
+            {relatedArticles.map((relatedPost) => {
+              const relatedDate = new Date(relatedPost.date).toLocaleDateString();
+              return (
+                <Link 
+                  key={relatedPost.slug} 
+                  href={`/blog/${relatedPost.slug}`}
+                  className="group bg-surface/50 border border-white/5 hover:border-lightning-blue/40 rounded-xl overflow-hidden transition-all hover:transform hover:-translate-y-1 duration-300"
+                >
+                  <div className="relative h-40 overflow-hidden">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img 
+                      src={relatedPost.image}
+                      alt={relatedPost.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                    <span className="absolute bottom-2 left-3 text-[10px] font-bold uppercase tracking-wider text-lightning-blue bg-black/50 px-2 py-0.5 rounded">
+                      {relatedPost.category}
+                    </span>
                   </div>
-                  <h3 className="text-white font-bold text-base group-hover:text-lightning-blue transition-colors line-clamp-2">
-                    {relatedPost.title}
-                  </h3>
-                  <p className="text-slate-400 text-sm mt-2 line-clamp-2">
-                    {relatedPost.excerpt}
-                  </p>
-                  <div className="mt-3 flex items-center text-lightning-blue text-sm font-medium group-hover:translate-x-1 transition-transform">
-                    Read More
-                    <ChevronRight className="w-4 h-4 ml-1" />
+                  <div className="p-4">
+                    <div className="flex items-center gap-2 text-xs text-slate-500 mb-2" suppressHydrationWarning>
+                      <Calendar className="w-3 h-3" />
+                      {relatedDate}
+                    </div>
+                    <h3 className="text-white font-bold text-base group-hover:text-lightning-blue transition-colors line-clamp-2">
+                      {relatedPost.title}
+                    </h3>
+                    <p className="text-slate-400 text-sm mt-2 line-clamp-2">
+                      {relatedPost.excerpt}
+                    </p>
+                    <div className="mt-3 flex items-center text-lightning-blue text-sm font-medium group-hover:translate-x-1 transition-transform">
+                      Read More
+                      <ChevronRight className="w-4 h-4 ml-1" />
+                    </div>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         </div>
 
-        {/* Ads - Only at bottom */}
-        <div className="mt-10 space-y-4">
-          <div className="w-full bg-white/5 border border-white/10 rounded-lg flex flex-col items-center justify-center text-slate-500 text-sm p-8">
-            <span className="opacity-50">Advertisement</span>
-          </div>
-        </div>
+        {/* Ads - Client Component only */}
+        <ClientAdComponent />
 
       </div>
     </>

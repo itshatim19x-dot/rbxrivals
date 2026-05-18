@@ -405,15 +405,1440 @@ export const maps: Map[] = [
 
 export const blogPosts: BlogPost[] = [
 
+
+
+  
+
+
+
+
+{
+  slug: 'roblox-rivals-grappler-spear-season-3-guide',
+  title: 'Grappler & Spear Guide: How to Use New Season 3 Weapons in Roblox Rivals',
+  category: 'Weapons',
+  date: '2026-05-18',
+  image: '/img/articles/article_07_01.webp',
+  excerpt: 'Master the new Grappler and Spear weapons in Roblox Rivals Season 3. Learn movement tech, damage combos, best loadouts, and pro strategies for the April 24 update.',
+  content: `
+      <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
+
+      <style>
+        /* Responsive Tables */
+        .responsive-table {
+          width: 100%;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          margin: 1.5rem 0;
+          border-radius: 0.75rem;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .responsive-table table {
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 0.875rem;
+          min-width: 500px;
+        }
+        .responsive-table th {
+          background: rgba(0, 240, 255, 0.1);
+          padding: 0.75rem 1rem;
+          text-align: left;
+          font-weight: 700;
+          color: #00f0ff;
+        }
+        .responsive-table td {
+          padding: 0.75rem 1rem;
+          border-top: 1px solid rgba(255, 255, 255, 0.1);
+          color: #cbd5e1;
+        }
+        @media (min-width: 640px) {
+          .responsive-table table {
+            font-size: 1rem;
+            min-width: auto;
+          }
+          .responsive-table th,
+          .responsive-table td {
+            padding: 1rem 1.25rem;
+          }
+        }
+        @media (max-width: 640px) {
+          .responsive-table.card-view table thead {
+            display: none;
+          }
+          .responsive-table.card-view table tbody tr {
+            display: block;
+            margin-bottom: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.75rem;
+            padding: 1rem;
+          }
+          .responsive-table.card-view table tbody td {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border: none;
+            gap: 1rem;
+          }
+          .responsive-table.card-view table tbody td:before {
+            content: attr(data-label);
+            font-weight: 700;
+            color: #00f0ff;
+            width: 40%;
+            flex-shrink: 0;
+          }
+        }
+
+        /* Chart Containers */
+        .chart-container {
+          background: rgba(0, 0, 0, 0.4);
+          border-radius: 1rem;
+          padding: 1.5rem;
+          margin: 2rem 0;
+          border: 1px solid rgba(0, 240, 255, 0.2);
+        }
+        canvas {
+          max-height: 350px;
+          width: 100%;
+        }
+
+        /* Two Column Grid */
+        .two-column-grid {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 1.5rem;
+          margin: 1.5rem 0;
+        }
+        @media (min-width: 768px) {
+          .two-column-grid {
+            grid-template-columns: 1fr 1fr;
+          }
+        }
+
+        /* Feature Cards */
+        .feature-card {
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 1rem;
+          padding: 1.25rem;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+          border-color: #00f0ff;
+          transform: translateY(-4px);
+        }
+        .feature-card h4 {
+          color: #00f0ff;
+          font-size: 1.1rem;
+          font-weight: 700;
+          margin-bottom: 0.75rem;
+        }
+
+        /* Progress Bars */
+        .stat-bar-container {
+          margin: 0.75rem 0;
+        }
+        .stat-label {
+          display: flex;
+          justify-content: space-between;
+          font-size: 0.8rem;
+          color: #cbd5e1;
+          margin-bottom: 0.25rem;
+        }
+        .stat-bar-bg {
+          height: 8px;
+          background: rgba(255, 255, 255, 0.1);
+          border-radius: 4px;
+          overflow: hidden;
+        }
+        .stat-bar-fill {
+          height: 100%;
+          background: linear-gradient(90deg, #00f0ff, #ff2d7a);
+          border-radius: 4px;
+          width: 0%;
+        }
+
+        /* Tip Boxes */
+        .tip-box {
+          background: rgba(0, 240, 255, 0.1);
+          border-left: 4px solid #00f0ff;
+          padding: 1rem 1.25rem;
+          margin: 1.5rem 0;
+          border-radius: 0 0.75rem 0.75rem 0;
+        }
+        .warning-box {
+          background: rgba(255, 45, 122, 0.1);
+          border-left: 4px solid #ff2d7a;
+          padding: 1rem 1.25rem;
+          margin: 1.5rem 0;
+          border-radius: 0 0.75rem 0.75rem 0;
+        }
+        .success-box {
+          background: rgba(34, 197, 94, 0.1);
+          border-left: 4px solid #22c55e;
+          padding: 1rem 1.25rem;
+          margin: 1.5rem 0;
+          border-radius: 0 0.75rem 0.75rem 0;
+        }
+
+        /* Step Cards */
+        .step-card {
+          display: flex;
+          gap: 1rem;
+          align-items: flex-start;
+          margin: 1rem 0;
+          padding: 1rem;
+          background: rgba(255, 255, 255, 0.03);
+          border-radius: 0.75rem;
+          border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .step-number {
+          width: 32px;
+          height: 32px;
+          background: #00f0ff;
+          color: black;
+          font-weight: 900;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+        }
+      </style>
+
+      <!-- Hero Section -->
+      <section class="relative border-b border-white/10 pb-10">
+        <p class="mb-4 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue flex items-center gap-2">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 7L9 18L4 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20 7v8" stroke="currentColor" stroke-linecap="round"/>
+            <path d="M16 11h4" stroke="currentColor" stroke-linecap="round"/>
+          </svg>
+          SEASON 3 NEW WEAPONS GUIDE
+        </p>
+
+        <h2 class="max-w-4xl text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">
+          Grappler & Spear Guide: Mastering the New Season 3 Weapons in Roblox Rivals
+        </h2>
+
+        <div class="mt-6 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            On <strong class="text-lightning-blue">April 24, 2026</strong>, Roblox Rivals released its biggest content drop of the year: <strong class="text-dark-pink">Season 3</strong>. This update introduced two completely new weapons that have already changed how the game is played at every skill level. The <strong class="text-lightning-blue">Grappler</strong> (available at Prime Tier 1 of the Season 3 Pass) and the <strong class="text-lightning-blue">Spear</strong> (available at Standard Tier 35) are not just cosmetic additions — they fundamentally change movement, engagement distance, and combat flow.
+          </p>
+
+
+            <!-- Hero Image -->
+            <figure class="relative my-10 overflow-hidden rounded-xl border border-white/10">
+              <img
+                src="/img/articles/article_07_02.webp"
+                alt="Roblox Rivals Grappler and Spear weapons Season 3 guide"
+                class="h-auto w-full object-cover"
+                loading="eager"
+              />
+              <figcaption class="border-t border-white/10 bg-black px-4 py-3 text-sm text-slate-500">
+                The Grappler (left) and Spear (right) — two completely new weapons that arrived with Roblox Rivals Season 3 on April 24, 2026.
+              </figcaption>
+            </figure>
+
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            This guide will teach you everything you need to know about both weapons. You will learn exact damage numbers, movement techniques, advanced combos, the best loadouts for each playstyle, and how to counter players who use these weapons against you. By the end of this guide, you will be ready to dominate Season 3 ranked matches with confidence.
+          </p>
+        </div>
+
+
+
+
+      <!-- Generator Promotion Section -->
+      <aside class="relative mb-10 overflow-hidden border-2 border-lightning-blue/30 bg-gradient-to-r from-lightning-blue/10 to-dark-pink/10 p-5 sm:p-6 lg:p-8">
+        <div class="absolute inset-0 pattern-squares opacity-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 h-32 w-32 bg-lightning-blue/20 blur-[50px] pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <p class="mb-3 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue">
+            Free Skins & Rewards
+          </p>
+
+          <h2 class="text-xl font-display font-bold text-white sm:text-2xl">
+            Want Free Weapon Skins and Codes?
+          </h2>
+
+          <p class="mt-2 max-w-3xl text-sm leading-7 text-slate-300">
+            Unlock exclusive weapon skins, wraps, charms, and free keys for Roblox Rivals. Our generator helps you discover working codes and rewards without wasting time on expired lists.
+          </p>
+
+          <div class="mt-6">
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-6 py-4 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-8 sm:text-base">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Get Free Skins & Codes Now</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+
+
+
+
+      <!-- What Are the Grappler and Spear? -->
+      <section class="relative mb-10">
+        <h2 class="border-l-4 border-lightning-blue pl-4 text-3xl font-black text-white flex items-center gap-3">
+          <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" stroke="currentColor" stroke-linecap="round"/>
+            <circle cx="12" cy="12" r="3" stroke="currentColor"/>
+          </svg>
+          What Are the Grappler and Spear?
+        </h2>
+
+        <div class="two-column-grid mt-5">
+          <div class="feature-card">
+            <div class="flex items-center gap-2 mb-3">
+              <svg class="w-6 h-6 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 10l4.5-4.5M15 10l-4.5 4.5M15 10v8M9 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="17" cy="7" r="2" stroke="currentColor"/>
+                <circle cx="7" cy="17" r="2" stroke="currentColor"/>
+              </svg>
+              <h4 class="mb-0">Grappler: Key Features</h4>
+            </div>
+            <ul class="space-y-2 text-sm text-slate-300 list-disc pl-5">
+              <li>Pulls YOU toward walls and surfaces</li>
+              <li>Pulls ENEMIES toward you on direct hit</li>
+              <li>15 second cooldown on miss / 8 second on hit</li>
+              <li>Can be used mid-air for aerial movement</li>
+              <li>No damage on Grappler hit — setup tool only</li>
+            </ul>
+            <div class="mt-4">
+              <div class="stat-bar-container">
+                <div class="stat-label"><span>Movement Speed</span><span>95/100</span></div>
+                <div class="stat-bar-bg"><div class="stat-bar-fill" style="width:95%"></div></div>
+              </div>
+              <div class="stat-bar-container">
+                <div class="stat-label"><span>Skill Ceiling</span><span>90/100</span></div>
+                <div class="stat-bar-bg"><div class="stat-bar-fill" style="width:90%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="flex items-center gap-2 mb-3">
+              <svg class="w-6 h-6 text-dark-pink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 3v12m0 0l-3-3m3 3l3-3M5 21h14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="7" r="2" stroke="currentColor"/>
+              </svg>
+              <h4 class="mb-0">Spear: Key Features</h4>
+            </div>
+            <ul class="space-y-2 text-sm text-slate-300 list-disc pl-5">
+              <li>Melee swing: 45 damage (faster than Katana)</li>
+              <li>Thrown attack: 65 damage (projectile)</li>
+              <li>Must retrieve Spear after throwing</li>
+              <li>Retrieve deals 25 damage if enemy picks it up</li>
+              <li>Can be thrown while jumping or sliding</li>
+            </ul>
+            <div class="mt-4">
+              <div class="stat-bar-container">
+                <div class="stat-label"><span>Damage Output</span><span>88/100</span></div>
+                <div class="stat-bar-bg"><div class="stat-bar-fill" style="width:88%"></div></div>
+              </div>
+              <div class="stat-bar-container">
+                <div class="stat-label"><span>Skill Ceiling</span><span>85/100</span></div>
+                <div class="stat-bar-bg"><div class="stat-bar-fill" style="width:85%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tip-box">
+          <div class="flex items-center gap-2 mb-2">
+            <svg class="w-5 h-5 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 8v4l3 3" stroke="currentColor" stroke-linecap="round"/>
+              <circle cx="12" cy="12" r="10" stroke="currentColor"/>
+            </svg>
+            <strong class="text-lightning-blue">PRO TIP:</strong>
+          </div>
+          <p class="text-slate-300 text-sm leading-7">The Grappler's pull effect stuns enemies for 0.5 seconds — enough time to switch weapons and land a free headshot. Practice your weapon swap speed in the training range before trying this in ranked matches.</p>
+        </div>
+      </section>
+
+      <!-- Damage Stats & Charts -->
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white flex items-center gap-3">
+          <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Damage Stats & Weapon Comparison
+        </h2>
+
+        <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          Understanding the exact damage numbers for both weapons is critical for winning duels. Below is a complete breakdown of damage values at different ranges.
+        </p>
+
+        <!-- Chart 1: Damage Comparison -->
+        <div class="chart-container">
+          <canvas id="damageChart"></canvas>
+        </div>
+
+
+        <div class="success-box">
+          <div class="flex items-center gap-2 mb-2">
+            <svg class="w-5 h-5 text-green-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M22 4L12 14.01l-3-3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <strong class="text-green-400">DID YOU KNOW?</strong>
+          </div>
+          <p class="text-slate-300 text-sm leading-7">The Spear's thrown attack deals 97 damage on headshot — enough to instantly kill any player with 100 HP or less. Always aim for the head when throwing!</p>
+        </div>
+      </section>
+
+
+
+
+        <!-- Chart 2: Range Comparison -->
+        <div class="chart-container">
+          <canvas id="rangeChart"></canvas>
+        </div>
+
+
+
+      <!-- Advanced Combos Section -->
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white flex items-center gap-3">
+          <svg class="w-7 h-7 text-dark-pink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M13 2L4 14h7l-1 8 10-13h-7l1-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Advanced Combos & Techniques
+        </h2>
+
+        <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+          The true power of the Grappler and Spear comes from combining them with your existing loadout. Here are the most effective combos discovered by top players.
+        </p>
+
+        <!-- Combo 1 -->
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div>
+            <h3 class="text-xl font-black text-lightning-blue mb-2">Grappler + Shotgun (One-Shot Potential)</h3>
+            <p class="text-slate-300 text-sm leading-7">Use the Grappler to pull an enemy directly into your face. While they are stunned from the pull animation, switch to your Shotgun and fire one shot at chest or head level. If you land the headshot, most enemies will die instantly.</p>
+          </div>
+        </div>
+
+        <!-- Combo 2 -->
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div>
+            <h3 class="text-xl font-black text-lightning-blue mb-2">Spear Throw + Uzi Finish</h3>
+            <p class="text-slate-300 text-sm leading-7">Open the fight by throwing your Spear at medium range for 65 damage. Immediately switch to your Uzi or Assault Rifle to spray the remaining HP. Retrieve your Spear after the kill for the next engagement.</p>
+          </div>
+        </div>
+
+        <!-- Combo 3 -->
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div>
+            <h3 class="text-xl font-black text-lightning-blue mb-2">Grappler Movement + Spear Air Throw</h3>
+            <p class="text-slate-300 text-sm leading-7">Use the Grappler to launch yourself into the air off a wall. While airborne, aim and throw your Spear at a grounded enemy. The elevated angle makes headshots easier, and the movement makes you harder to hit.</p>
+          </div>
+        </div>
+
+        <div class="warning-box">
+          <div class="flex items-center gap-2 mb-2">
+            <svg class="w-5 h-5 text-dark-pink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 9v4M12 17h.01" stroke="currentColor" stroke-linecap="round"/>
+              <circle cx="12" cy="12" r="10" stroke="currentColor"/>
+            </svg>
+            <strong class="text-dark-pink">WARNING:</strong>
+          </div>
+          <p class="text-slate-300 text-sm leading-7">After throwing your Spear, you are completely unarmed until you retrieve it. Never throw your Spear unless you are confident you can finish the fight or have a safe path to retrieve it.</p>
+        </div>
+      </section>
+
+      <!-- Combo Image -->
+      <figure class="mb-10 overflow-hidden rounded-xl border border-white/10">
+        <img
+          src="/img/articles/article_07_03.webp"
+          alt="Grappler and Spear combo diagram"
+          class="h-auto w-full object-cover"
+          loading="lazy"
+        />
+        <figcaption class="border-t border-white/10 bg-black px-4 py-3 text-sm text-slate-500">
+          Grappler movement paths (green) and Spear throw angles (red) — mastering these will separate you from average players.
+        </figcaption>
+      </figure>
+
+      <!-- Best Loadouts Table -->
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white flex items-center gap-3">
+          <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor"/>
+            <path d="M8 7v2M12 7v2M16 7v2M8 15v2M12 15v2M16 15v2" stroke="currentColor" stroke-linecap="round"/>
+          </svg>
+          Best Loadouts for Each Playstyle
+        </h2>
+
+        <div class="responsive-table card-view mt-5">
+          <table>
+            <thead>
+              <tr>
+                <th>Playstyle</th>
+                <th>Primary</th>
+                <th>Secondary</th>
+                <th>Utility</th>
+                <th>Strategy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Playstyle">Aggro Puller</td>
+                <td data-label="Primary">Shotgun</td>
+                <td data-label="Secondary">Grappler</td>
+                <td data-label="Utility">Flash</td>
+                <td data-label="Strategy">Pull enemies into close range, one-shot with Shotgun</td>
+              </tr>
+              <tr>
+                <td data-label="Playstyle">Spear Sniper</td>
+                <td data-label="Primary">Spear</td>
+                <td data-label="Secondary">Assault Rifle</td>
+                <td data-label="Utility">Smoke</td>
+                <td data-label="Strategy">Open with Spear throw, finish with rifle fire</td>
+              </tr>
+              <tr>
+                <td data-label="Playstyle">Movement God</td>
+                <td data-label="Primary">Grappler</td>
+                <td data-label="Secondary">Uzi</td>
+                <td data-label="Utility">Grenade</td>
+                <td data-label="Strategy">Use Grappler for repositioning, never stand still</td>
+              </tr>
+              <tr>
+                <td data-label="Playstyle">Duelist</td>
+                <td data-label="Primary">Spear (melee)</td>
+                <td data-label="Secondary">Revolver</td>
+                <td data-label="Utility">Flash</td>
+                <td data-label="Strategy">Close distance, melee + quick headshot finish</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+
+
+      <!-- Generator Promotion Section -->
+      <aside class="relative mb-10 overflow-hidden border-2 border-lightning-blue/30 bg-gradient-to-r from-lightning-blue/10 to-dark-pink/10 p-5 sm:p-6 lg:p-8">
+        <div class="absolute inset-0 pattern-squares opacity-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 h-32 w-32 bg-lightning-blue/20 blur-[50px] pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <p class="mb-3 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue">
+            UNLOCK THESE WEAPONS
+          </p>
+
+          <h2 class="text-xl font-display font-bold text-white sm:text-2xl">
+            Want the Grappler and Spear?
+          </h2>
+
+          <p class="mt-2 max-w-3xl text-sm leading-7 text-slate-300">
+            The Grappler is available at Prime Tier 1 of the Season 3 Pass. The Spear unlocks at Standard Tier 35. Grind matches or use our generator to get free keys and progress faster through the battle pass.
+          </p>
+
+          <div class="mt-6">
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-6 py-4 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-8 sm:text-base">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Get Free Skins & Codes Now</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+
+      <!-- How to Counter -->
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white flex items-center gap-3">
+          <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M22 4L12 14.01l-3-3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          How to Counter Grappler & Spear Users
+        </h2>
+
+        <ul class="mt-5 max-w-4xl space-y-3 list-disc pl-6 text-slate-300">
+          <li><strong class="text-white">Against Grappler:</strong> Stay near cover that blocks line of sight. If you see the Grapple beam, dodge sideways immediately. The Grappler has a long cooldown on miss — punish the user while they are vulnerable.</li>
+          <li><strong class="text-white">Against Spear:</strong> Bait the throw. If you see the Spear leave their hand, they are weaponless until they retrieve it. Push aggressively when they are unarmed.</li>
+          <li><strong class="text-white">Against Both:</strong> Shotguns and Uzis are the biggest threats. Out-range them with a Sniper or Burst Rifle.</li>
+        </ul>
+      </section>
+
+      <!-- Training Drills Table -->
+      <section class="relative mb-10 border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white flex items-center gap-3">
+          <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 6v6l4 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12" cy="12" r="10" stroke="currentColor"/>
+          </svg>
+          Training Drills to Master Both Weapons
+        </h2>
+
+        <div class="responsive-table card-view mt-5">
+          <table>
+            <thead>
+              <tr>
+                <th>Drill</th>
+                <th>Weapon</th>
+                <th>Goal</th>
+                <th>Repetitions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Drill">Wall Jump + Grapple</td>
+                <td data-label="Weapon">Grappler</td>
+                <td data-label="Goal">Air strafe control</td>
+                <td data-label="Repetitions">50</td>
+              </tr>
+              <tr>
+                <td data-label="Drill">Enemy Pull + Shotgun</td>
+                <td data-label="Weapon">Grappler + Shotgun</td>
+                <td data-label="Goal">Sub 1 sec kill</td>
+                <td data-label="Repetitions">100</td>
+              </tr>
+              <tr>
+                <td data-label="Drill">Spear Throw Accuracy</td>
+                <td data-label="Weapon">Spear</td>
+                <td data-label="Goal">80% hit rate at 20m</td>
+                <td data-label="Repetitions">200</td>
+              </tr>
+              <tr>
+                <td data-label="Drill">Throw + Retrieve Cycle</td>
+                <td data-label="Weapon">Spear</td>
+                <td data-label="Goal">3 sec full cycle</td>
+                <td data-label="Repetitions">50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Final CTA Section -->
+      <section class="relative border-t border-white/10 pt-8">
+        <h2 class="text-3xl font-black text-white">Final Thoughts</h2>
+
+        <div class="mt-5 max-w-4xl space-y-5">
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            The Grappler and Spear have fundamentally changed how Roblox Rivals is played in Season 3. Players who master these weapons early will have a significant advantage. Start with the Grappler + Shotgun combo — it is the easiest to learn and the most lethal in close-range maps like Ruined Temple.
+          </p>
+
+          <p class="text-base leading-8 text-slate-300 sm:text-lg">
+            Remember: the Grappler is available immediately at Prime Tier 1 of the Season 3 Pass. The Spear unlocks at Standard Tier 35. Grind matches and use our generator to get free keys to accelerate your battle pass progress.
+          </p>
+
+
+        </div>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      (function() {
+        // Damage Chart
+        const damageCanvas = document.getElementById('damageChart');
+        if (damageCanvas && !damageCanvas.hasAttribute('data-damage-chart')) {
+          damageCanvas.setAttribute('data-damage-chart', 'true');
+          new Chart(damageCanvas, {
+            type: 'bar',
+            data: {
+              labels: ['Spear Melee', 'Spear Thrown', 'Katana', 'Grappler'],
+              datasets: [{
+                label: 'Body Shot Damage',
+                data: [45, 65, 50, 0],
+                backgroundColor: 'rgba(0, 240, 255, 0.7)',
+                borderColor: '#00f0ff',
+                borderWidth: 1
+              }, {
+                label: 'Head Shot Damage',
+                data: [67, 97, 75, 0],
+                backgroundColor: 'rgba(255, 45, 122, 0.7)',
+                borderColor: '#ff2d7a',
+                borderWidth: 1
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: true,
+              plugins: { legend: { labels: { color: '#cbd5e1' } } },
+              scales: {
+                y: { beginAtZero: true, max: 120, grid: { color: 'rgba(255,255,255,0.1)' }, ticks: { color: '#cbd5e1' } },
+                x: { ticks: { color: '#cbd5e1' } }
+              }
+            }
+          });
+        }
+
+        // Range Chart
+        const rangeCanvas = document.getElementById('rangeChart');
+        if (rangeCanvas && !rangeCanvas.hasAttribute('data-range-chart')) {
+          rangeCanvas.setAttribute('data-range-chart', 'true');
+          new Chart(rangeCanvas, {
+            type: 'radar',
+            data: {
+              labels: ['Close Range', 'Medium Range', 'Long Range', 'Movement', 'Utility'],
+              datasets: [{
+                label: 'Grappler',
+                data: [30, 70, 85, 95, 90],
+                backgroundColor: 'rgba(0, 240, 255, 0.2)',
+                borderColor: '#00f0ff',
+                borderWidth: 2
+              }, {
+                label: 'Spear',
+                data: [80, 75, 40, 60, 50],
+                backgroundColor: 'rgba(255, 45, 122, 0.2)',
+                borderColor: '#ff2d7a',
+                borderWidth: 2
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: true,
+              plugins: { legend: { labels: { color: '#cbd5e1' } } },
+              scales: { r: { grid: { color: 'rgba(255,255,255,0.1)' }, ticks: { color: '#cbd5e1' } } }
+            }
+          });
+        }
+      })();
+    </script>
+  `
+},
+
+
+
+
+
+
+{
+  slug: 'how-to-get-ranked-coins-glory-roblox-rivals',
+  title: 'How to Get Ranked Coins (Glory) in Roblox Rivals: Complete Guide',
+  category: 'Ranked',
+  date: '2026-05-19',
+  image: '/img/articles/article_08_01.webp',
+  excerpt: 'Learn how to earn Ranked Coins (Glory) in Roblox Rivals. Complete guide to Glory calculation formula, Ranked Shop items, best purchases, and tips to maximize your seasonal rewards.',
+  content: `
+    <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
+
+    <style>
+      .responsive-table {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 1.5rem 0;
+        border-radius: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .responsive-table table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.875rem;
+        min-width: 500px;
+      }
+      .responsive-table th {
+        background: rgba(0, 240, 255, 0.1);
+        padding: 0.75rem 1rem;
+        text-align: left;
+        font-weight: 700;
+        color: #00f0ff;
+      }
+      .responsive-table td {
+        padding: 0.75rem 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #cbd5e1;
+      }
+      @media (min-width: 640px) {
+        .responsive-table table {
+          font-size: 1rem;
+          min-width: auto;
+        }
+        .responsive-table th,
+        .responsive-table td {
+          padding: 1rem 1.25rem;
+        }
+      }
+      @media (max-width: 640px) {
+        .responsive-table.card-view table thead {
+          display: none;
+        }
+        .responsive-table.card-view table tbody tr {
+          display: block;
+          margin-bottom: 1rem;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 0.75rem;
+          padding: 1rem;
+        }
+        .responsive-table.card-view table tbody td {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0.5rem 0;
+          border: none;
+          gap: 1rem;
+        }
+        .responsive-table.card-view table tbody td:before {
+          content: attr(data-label);
+          font-weight: 700;
+          color: #00f0ff;
+          width: 40%;
+          flex-shrink: 0;
+        }
+      }
+      .chart-container {
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 1rem;
+        padding: 1.5rem;
+        margin: 2rem 0;
+        border: 1px solid rgba(0, 240, 255, 0.2);
+      }
+      canvas {
+        max-height: 350px;
+        width: 100%;
+      }
+      .two-column-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin: 1.5rem 0;
+      }
+      @media (min-width: 768px) {
+        .two-column-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      .feature-card {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 1rem;
+        padding: 1.25rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: all 0.3s ease;
+      }
+      .feature-card:hover {
+        border-color: #00f0ff;
+        transform: translateY(-4px);
+      }
+      .feature-card h4 {
+        color: #00f0ff;
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+      }
+      .tip-box {
+        background: rgba(0, 240, 255, 0.1);
+        border-left: 4px solid #00f0ff;
+        padding: 1rem 1.25rem;
+        margin: 1.5rem 0;
+        border-radius: 0 0.75rem 0.75rem 0;
+      }
+      .warning-box {
+        background: rgba(255, 45, 122, 0.1);
+        border-left: 4px solid #ff2d7a;
+        padding: 1rem 1.25rem;
+        margin: 1.5rem 0;
+        border-radius: 0 0.75rem 0.75rem 0;
+      }
+      .success-box {
+        background: rgba(34, 197, 94, 0.1);
+        border-left: 4px solid #22c55e;
+        padding: 1rem 1.25rem;
+        margin: 1.5rem 0;
+        border-radius: 0 0.75rem 0.75rem 0;
+      }
+      .step-card {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        margin: 1rem 0;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      .step-number {
+        width: 32px;
+        height: 32px;
+        background: #00f0ff;
+        color: black;
+        font-weight: 900;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+    </style>
+
+    <!-- Hero Section -->
+    <section class="relative border-b border-white/10 pb-10">
+      <p class="mb-4 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue flex items-center gap-2">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" stroke="currentColor" stroke-linecap="round"/>
+          <circle cx="12" cy="12" r="3" stroke="currentColor"/>
+        </svg>
+        RANKED COINS GUIDE
+      </p>
+
+
+
+      <div class="mt-6 max-w-4xl space-y-5">
+        <p class="text-base leading-8 text-slate-300 sm:text-lg">
+          <strong class="text-lightning-blue">Ranked Coins</strong> — officially called <strong class="text-dark-pink">Glory</strong> — are the most valuable seasonal currency in Roblox Rivals. Unlike Keys or Crystals, Glory can only be earned through ranked play and is awarded at the end of each competitive season. The better you perform, the more Glory you earn. Glory can only be spent in the exclusive <strong class="text-lightning-blue">Ranked Shop</strong>, which contains cosmetics that cannot be obtained anywhere else.
+        </p>
+
+      <!-- Hero Image -->
+      <figure class="relative my-10 overflow-hidden rounded-xl border border-white/10">
+        <img
+          src="/img/articles/article_08_02.webp"
+          alt="Roblox Rivals Ranked Coins Glory guide showing Ranked Shop items"
+          class="h-auto w-full object-cover"
+          loading="eager"
+        />
+        <figcaption class="border-t border-white/10 bg-black px-4 py-3 text-sm text-slate-500">
+          Glory (Ranked Coins) can be spent in the exclusive Ranked Shop on items that never return after each season.
+        </figcaption>
+      </figure>
+
+
+        <p class="text-base leading-8 text-slate-300 sm:text-lg">
+          This guide will teach you everything you need to know about Glory: the exact calculation formula, how many Glory you can earn per season, the complete Ranked Shop catalog with all items and costs, the best purchases to make first, and proven strategies to maximize your Glory earnings. By the end of this guide, you will know exactly how to farm Glory efficiently and what to buy with it.
+        </p>
+      </div>
+
+
+      <!-- Generator Promotion Section -->
+      <aside class="relative mb-10 overflow-hidden border-2 border-lightning-blue/30 bg-gradient-to-r from-lightning-blue/10 to-dark-pink/10 p-5 sm:p-6 lg:p-8">
+        <div class="absolute inset-0 pattern-squares opacity-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 h-32 w-32 bg-lightning-blue/20 blur-[50px] pointer-events-none"></div>
+
+        <div class="relative z-10">
+          <p class="mb-3 text-xs font-black uppercase tracking-[0.25em] text-lightning-blue">
+            Free Rewards
+          </p>
+
+          <h2 class="text-xl font-display font-bold text-white sm:text-2xl">
+            Want Free Keys and Rewards?
+          </h2>
+
+          <p class="mt-2 max-w-3xl text-sm leading-7 text-slate-300">
+            Use our generator to get free keys, wraps, and charms for Roblox Rivals. Boost your ranked progress and unlock Glory faster!
+          </p>
+
+          <div class="mt-6">
+            <a href="/generator" class="group inline-flex min-h-[52px] w-full !cursor-pointer select-none items-center justify-center gap-2 bg-lightning-blue px-6 py-4 text-center text-sm font-bold uppercase tracking-wider !text-black !no-underline shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-colors hover:bg-white hover:!text-black sm:w-auto sm:px-8 sm:text-base">
+              <svg class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" fill="currentColor"/>
+              </svg>
+              <span class="pointer-events-none leading-none !text-inherit">Get Free Rewards Now</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- What Are Ranked Coins (Glory)? -->
+    <section class="relative mb-10">
+      <h2 class="border-l-4 border-lightning-blue pl-4 text-3xl font-black text-white flex items-center gap-3">
+        <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10" stroke="currentColor"/>
+          <path d="M12 6v6l4 2" stroke="currentColor" stroke-linecap="round"/>
+        </svg>
+        What Are Ranked Coins (Glory)?
+      </h2>
+
+      <div class="mt-5 max-w-4xl space-y-5">
+        <p class="text-base leading-8 text-slate-300 sm:text-lg">
+          Glory is the <strong class="text-lightning-blue">seasonal ranked currency</strong> in Roblox Rivals. Unlike Keys (which you can get from codes and daily rewards) or Crystals (purchased with real money), Glory is <strong class="text-dark-pink">exclusively earned through ranked play</strong>. You cannot buy Glory with Robux — the only way to get it is to play ranked matches and perform well.
+        </p>
+
+        <p class="text-base leading-8 text-slate-300 sm:text-lg">
+          Glory is awarded at the <strong class="text-lightning-blue">end of each ranked season</strong>, not after every match. This means your entire season's performance determines how much Glory you receive. The better your final rank and the more wins you accumulate, the more Glory you will earn. Glory then resets each season, so you must earn it again from scratch.
+        </p>
+      </div>
+
+      <div class="two-column-grid mt-5">
+        <div class="feature-card">
+          <div class="flex items-center gap-2 mb-3">
+            <svg class="w-6 h-6 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" stroke="currentColor" stroke-linecap="round"/>
+              <circle cx="12" cy="12" r="3" stroke="currentColor"/>
+            </svg>
+            <h4 class="mb-0">Key Glory Facts</h4>
+          </div>
+          <ul class="space-y-2 text-sm text-slate-300 list-disc pl-5">
+            <li>Seasonal currency — resets every season</li>
+            <li>Awarded at season end, not per match</li>
+            <li>Cannot be purchased with Robux</li>
+            <li>Spent in the exclusive Ranked Shop</li>
+            <li>Capped at 2500 Glory per season + 500 from Ranked Contract</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="flex items-center gap-2 mb-3">
+            <svg class="w-6 h-6 text-dark-pink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2-12H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2z" stroke="currentColor" stroke-linecap="round"/>
+            </svg>
+            <h4 class="mb-0">What Glory Buys</h4>
+          </div>
+          <ul class="space-y-2 text-sm text-slate-300 list-disc pl-5">
+            <li>Exclusive weapon skins</li>
+            <li>Limited-time wraps</li>
+            <li>Unique finishers</li>
+            <li>Charms and emotes</li>
+            <li>Items never return after season ends</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tip-box">
+        <div class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 8v4l3 3" stroke="currentColor" stroke-linecap="round"/>
+            <circle cx="12" cy="12" r="10" stroke="currentColor"/>
+          </svg>
+          <strong class="text-lightning-blue">PRO TIP:</strong>
+        </div>
+        <p class="text-slate-300 text-sm leading-7">Ranked Shop items are <strong class="text-dark-pink">season-exclusive</strong> and never return. If you see a skin or wrap you want, buy it before the season ends — once the season resets, that item is gone forever.</p>
+      </div>
+    </section>
+
+    <!-- Glory Calculation Formula -->
+    <section class="relative mb-10 border-t border-white/10 pt-8">
+      <h2 class="text-3xl font-black text-white flex items-center gap-3">
+        <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 4v16h16M4 12h16" stroke="currentColor" stroke-linecap="round"/>
+          <path d="M8 8v8M12 8v4M16 8v2" stroke="currentColor" stroke-linecap="round"/>
+        </svg>
+        Glory Calculation Formula
+      </h2>
+
+      <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+        Your Glory at the end of each season is calculated using this official formula:
+      </p>
+
+      <div class="success-box">
+        <div class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-green-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M22 4L12 14.01l-3-3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <strong class="text-green-400">GLORY FORMULA:</strong>
+        </div>
+        <p class="text-slate-300 text-sm leading-7 font-mono text-center text-lg">
+          1250 x (RANKED_WINS / 250) + 1250 x (FINAL_ELO / 3600)
+        </p>
+      </div>
+
+      <div class="mt-5 max-w-4xl space-y-5">
+        <p class="text-base leading-8 text-slate-300 sm:text-lg">
+          Let's break down what each part means:
+        </p>
+      </div>
+
+      <div class="responsive-table card-view mt-5">
+        <table>
+          <thead>
+            <tr>
+              <th>Variable</th>
+              <th>What It Means</th>
+              <th>Max Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Variable">RANKED_WINS</td>
+              <td data-label="What It Means">Total number of ranked matches you won this season</td>
+              <td data-label="Max Value">250 wins (max contribution)</td>
+            </tr>
+            <tr>
+              <td data-label="Variable">FINAL_ELO</td>
+              <td data-label="What It Means">Your ELO rating at the end of the season</td>
+              <td data-label="Max Value">3600 ELO (Nemesis rank)</td>
+            </tr>
+            <tr>
+              <td data-label="Variable">1250</td>
+              <td data-label="What It Means">Multiplier constant in the formula</td>
+              <td data-label="Max Value">Fixed value</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="warning-box">
+        <div class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-dark-pink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 9v4M12 17h.01" stroke="currentColor" stroke-linecap="round"/>
+            <circle cx="12" cy="12" r="10" stroke="currentColor"/>
+          </svg>
+          <strong class="text-dark-pink">IMPORTANT CAP:</strong>
+        </div>
+        <p class="text-slate-300 text-sm leading-7">Glory is capped at <strong class="text-white">2500 Glory per season</strong> from the formula above. An additional <strong class="text-white">500 Glory</strong> can be obtained by completing the <strong class="text-lightning-blue">Ranked Contract</strong>, bringing the absolute maximum to 3000 Glory per season.</p>
+      </div>
+
+      <!-- Chart: Glory Calculator Visualization -->
+      <div class="chart-container">
+        <canvas id="gloryChart"></canvas>
+      </div>
+
+      <div class="responsive-table card-view mt-5">
+        <table>
+          <thead>
+            <tr>
+              <th>Rank Achieved</th>
+              <th>Approximate Wins Needed</th>
+              <th>Estimated Glory</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Rank Achieved">Bronze</td>
+              <td data-label="Approximate Wins Needed">10-20</td>
+              <td data-label="Estimated Glory">100-200</td>
+            </tr>
+            <tr>
+              <td data-label="Rank Achieved">Silver</td>
+              <td data-label="Approximate Wins Needed">30-50</td>
+              <td data-label="Estimated Glory">300-600</td>
+            </tr>
+            <tr>
+              <td data-label="Rank Achieved">Gold</td>
+              <td data-label="Approximate Wins Needed">60-100</td>
+              <td data-label="Estimated Glory">700-1,200</td>
+            </tr>
+            <tr>
+              <td data-label="Rank Achieved">Platinum</td>
+              <td data-label="Approximate Wins Needed">100-150</td>
+              <td data-label="Estimated Glory">1,300-1,800</td>
+            </tr>
+            <tr>
+              <td data-label="Rank Achieved">Diamond</td>
+              <td data-label="Approximate Wins Needed">150-200</td>
+              <td data-label="Estimated Glory">1,800-2,200</td>
+            </tr>
+            <tr>
+              <td data-label="Rank Achieved">Onyx</td>
+              <td data-label="Approximate Wins Needed">200-240</td>
+              <td data-label="Estimated Glory">2,200-2,500</td>
+            </tr>
+            <tr>
+              <td data-label="Rank Achieved">Nemesis / Archnemesis</td>
+              <td data-label="Approximate Wins Needed">250+</td>
+              <td data-label="Estimated Glory">2,500 + 500 (Contract)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Ranked Shop Catalog -->
+    <section class="relative mb-10 border-t border-white/10 pt-8">
+      <h2 class="text-3xl font-black text-white flex items-center gap-3">
+        <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor"/>
+          <path d="M8 7v2M12 7v2M16 7v2M8 15v2M12 15v2M16 15v2" stroke="currentColor" stroke-linecap="round"/>
+        </svg>
+        Ranked Shop Catalog
+      </h2>
+
+      <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+        The Ranked Shop contains two types of items: <strong class="text-lightning-blue">Universal Items</strong> (can be used on any weapon) and <strong class="text-dark-pink">Weapon-Specific Tracks</strong> (must be purchased in order per weapon).
+      </p>
+
+      <h3 class="mt-8 text-2xl font-black text-lightning-blue flex items-center gap-2">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M20 7L9 18L4 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Universal Items
+      </h3>
+
+      <div class="responsive-table card-view">
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Type</th>
+              <th>Cost (Glory)</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Item">Emoji: Imp</td>
+              <td data-label="Type">Charm</td>
+              <td data-label="Cost (Glory)">250</td>
+              <td data-label="Description">Cute imp emoji charm for any weapon</td>
+            </tr>
+            <tr>
+              <td data-label="Item">Impaled</td>
+              <td data-label="Type">Finisher</td>
+              <td data-label="Cost (Glory)">500</td>
+              <td data-label="Description">Impale your enemy with a dramatic finisher</td>
+            </tr>
+            <tr>
+              <td data-label="Item">Flex</td>
+              <td data-label="Type">Emote</td>
+              <td data-label="Cost (Glory)">1,000</td>
+              <td data-label="Description">Show off after a kill with this emote</td>
+            </tr>
+            <tr>
+              <td data-label="Item">Black Glass</td>
+              <td data-label="Type">Wrap</td>
+              <td data-label="Cost (Glory)">2,000</td>
+              <td data-label="Description">Sleek black glass wrap for any weapon</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="mt-8 text-2xl font-black text-lightning-blue flex items-center gap-2">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 3v12m0 0l-3-3m3 3l3-3M5 21h14" stroke="currentColor" stroke-linecap="round"/>
+        </svg>
+        Weapon-Specific Tracks (Per Weapon)
+      </h3>
+
+      <p class="mt-2 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+        For each weapon you own, you can purchase a track of 4 items in order. You must buy Tier I before unlocking Tier II, etc. Use the dropdown menu in the Ranked Shop to select which weapon's track to view.
+      </p>
+
+      <div class="responsive-table card-view">
+        <table>
+          <thead>
+            <tr>
+              <th>Tier</th>
+              <th>Item</th>
+              <th>Type</th>
+              <th>Cost (Glory)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Tier">I</td>
+              <td data-label="Item">Glory Coin</td>
+              <td data-label="Type">Charm</td>
+              <td data-label="Cost (Glory)">100</td>
+            </tr>
+            <tr>
+              <td data-label="Tier">II</td>
+              <td data-label="Item">Glorious</td>
+              <td data-label="Type">Wrap</td>
+              <td data-label="Cost (Glory)">200</td>
+            </tr>
+            <tr>
+              <td data-label="Tier">III</td>
+              <td data-label="Item">For Glory</td>
+              <td data-label="Type">Finisher</td>
+              <td data-label="Cost (Glory)">300</td>
+            </tr>
+            <tr>
+              <td data-label="Tier">IV</td>
+              <td data-label="Item">Glorious [Weapon Name]</td>
+              <td data-label="Type">Weapon Skin</td>
+              <td data-label="Cost (Glory)">400</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tip-box">
+        <div class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 8v4l3 3" stroke="currentColor" stroke-linecap="round"/>
+            <circle cx="12" cy="12" r="10" stroke="currentColor"/>
+          </svg>
+          <strong class="text-lightning-blue">PRO TIP:</strong>
+        </div>
+        <p class="text-slate-300 text-sm leading-7">The complete weapon track costs <strong class="text-white">1,000 Glory total</strong> (100 + 200 + 300 + 400). If you main a specific weapon, prioritize buying its full track before spending Glory on universal items.</p>
+      </div>
+    </section>
+
+    <!-- Best Items to Buy First -->
+    <section class="relative mb-10 border-t border-white/10 pt-8">
+      <h2 class="text-3xl font-black text-white flex items-center gap-3">
+        <svg class="w-7 h-7 text-dark-pink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M13 2L4 14h7l-1 8 10-13h-7l1-7z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Best Items to Buy First
+      </h2>
+
+      <p class="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+        If you're new to ranked mode or have limited Glory, here is the recommended purchase order:
+      </p>
+
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <div>
+          <h3 class="text-xl font-black text-lightning-blue mb-2">Your Main Weapon's Full Track (1,000 Glory)</h3>
+          <p class="text-slate-300 text-sm leading-7">If you have a favorite weapon (Assault Rifle, Shotgun, Sniper, etc.), buy its complete track first. You get a charm, wrap, finisher, AND an exclusive weapon skin — all for 1,000 Glory.</p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <div>
+          <h3 class="text-xl font-black text-lightning-blue mb-2">Black Glass Wrap (2,000 Glory)</h3>
+          <p class="text-slate-300 text-sm leading-7">This universal wrap works on ANY weapon and looks great. If you have extra Glory after buying your main weapon's track, this is the best universal item.</p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <div>
+          <h3 class="text-xl font-black text-lightning-blue mb-2">Flex Emote (1,000 Glory)</h3>
+          <p class="text-slate-300 text-sm leading-7">Show off after kills. Emotes are visible to all players and add personality to your gameplay.</p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">4</div>
+        <div>
+          <h3 class="text-xl font-black text-lightning-blue mb-2">Second Weapon Track (1,000 Glory)</h3>
+          <p class="text-slate-300 text-sm leading-7">If you play multiple weapons, start another track. The Glorious weapon skins are some of the best-looking cosmetics in the game.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Get More Glory -->
+    <section class="relative mb-10 border-t border-white/10 pt-8">
+      <h2 class="text-3xl font-black text-white flex items-center gap-3">
+        <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M22 4L12 14.01l-3-3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        How to Get More Glory
+      </h2>
+
+      <ul class="mt-5 max-w-4xl space-y-3 list-disc pl-6 text-slate-300">
+        <li><strong class="text-white">Win More Ranked Matches:</strong> The formula rewards total wins up to 250. Each win brings you closer to the maximum contribution.</li>
+        <li><strong class="text-white">Climb to a Higher Rank:</strong> Your final ELO is a major factor. Reaching Nemesis (3600 ELO) maximizes your Glory from the ELO portion.</li>
+        <li><strong class="text-white">Complete the Ranked Contract:</strong> This seasonal challenge awards 500 bonus Glory. Check your Ranked Contract progress in the ranked menu.</li>
+        <li><strong class="text-white">Play Consistently:</strong> Glory only pays out at season end. If you stop playing mid-season, your final ELO and win count will be lower.</li>
+        <li><strong class="text-white">Queue with Strong Teammates:</strong> Winning more matches is easier with a coordinated team. Find reliable duo or trio partners.</li>
+      </ul>
+
+      <div class="success-box">
+        <div class="flex items-center gap-2 mb-2">
+          <svg class="w-5 h-5 text-green-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M22 4L12 14.01l-3-3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <strong class="text-green-400">MAX GLORY STRATEGY:</strong>
+        </div>
+        <p class="text-slate-300 text-sm leading-7">To reach the 3,000 Glory cap (2,500 from formula + 500 from Contract), you need approximately <strong class="text-white">250 ranked wins</strong> and a final rank of <strong class="text-white">Nemesis or higher</strong>. This requires consistent play throughout the entire season.</p>
+      </div>
+    </section>
+
+    <!-- Glory vs Other Currencies -->
+    <section class="relative mb-10 border-t border-white/10 pt-8">
+      <h2 class="text-3xl font-black text-white flex items-center gap-3">
+        <svg class="w-7 h-7 text-lightning-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor"/>
+          <path d="M8 7v2M12 7v2M16 7v2M8 15v2M12 15v2M16 15v2" stroke="currentColor" stroke-linecap="round"/>
+        </svg>
+        Glory vs Other Currencies
+      </h2>
+
+      <div class="responsive-table card-view">
+        <table>
+          <thead>
+            <tr>
+              <th>Currency</th>
+              <th>How to Earn</th>
+              <th>What It Buys</th>
+              <th>Seasonal Reset?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Currency">Glory (Ranked Coins)</td>
+              <td data-label="How to Earn">Ranked matches (season-end payout)</td>
+              <td data-label="What It Buys">Exclusive Ranked Shop cosmetics</td>
+              <td data-label="Seasonal Reset?">Yes (resets each season)</td>
+            </tr>
+            <tr>
+              <td data-label="Currency">Keys</td>
+              <td data-label="How to Earn">Codes, daily rewards, battle pass</td>
+              <td data-label="What It Buys">Cases, skins, wraps</td>
+              <td data-label="Seasonal Reset?">No (permanent)</td>
+            </tr>
+            <tr>
+              <td data-label="Currency">Crystals</td>
+              <td data-label="How to Earn">Purchased with Robux, battle pass</td>
+              <td data-label="What It Buys">Premium skins, battle pass tiers</td>
+              <td data-label="Seasonal Reset?">No (permanent)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="relative border-t border-white/10 pt-8">
+      <h2 class="text-3xl font-black text-white">Final Thoughts</h2>
+
+      <div class="mt-5 max-w-4xl space-y-5">
+        <p class="text-base leading-8 text-slate-300 sm:text-lg">
+          Glory (Ranked Coins) is the ultimate reward for dedicated ranked players in Roblox Rivals. Unlike other currencies, Glory cannot be bought — it must be earned through skill, consistency, and dedication. The exclusive Ranked Shop items are badges of honor that show other players you climbed the ladder and earned your rewards.
+        </p>
+
+        <p class="text-base leading-8 text-slate-300 sm:text-lg">
+          Focus on winning matches, climbing to the highest rank you can achieve, and completing your Ranked Contract each season. Even if you can't reach Nemesis, every win and every ELO point contributes to your Glory total. Start your ranked journey today, and by the end of the season, you'll have enough Glory to unlock exclusive cosmetics that will never return.
+        </p>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  (function() {
+    const gloryCanvas = document.getElementById('gloryChart');
+    if (gloryCanvas && !gloryCanvas.hasAttribute('data-glory-chart')) {
+      gloryCanvas.setAttribute('data-glory-chart', 'true');
+      new Chart(gloryCanvas, {
+        type: 'bar',
+        data: {
+          labels: ['Bronze', 'Silver', 'Gold', 'Platinum', 'Diamond', 'Onyx', 'Nemesis+'],
+          datasets: [{
+            label: 'Estimated Glory',
+            data: [150, 450, 950, 1550, 2000, 2350, 2500],
+            backgroundColor: 'rgba(0, 240, 255, 0.7)',
+            borderColor: '#00f0ff',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          plugins: {
+            legend: { labels: { color: '#cbd5e1' } },
+            tooltip: { callbacks: { label: function(ctx) { return ctx.raw + ' Glory'; } } }
+          },
+          scales: {
+            y: { beginAtZero: true, max: 3000, grid: { color: 'rgba(255,255,255,0.1)' }, ticks: { color: '#cbd5e1', stepSize: 500 } },
+            x: { ticks: { color: '#cbd5e1' } }
+          }
+        }
+      });
+    }
+  })();
+</script>
+  `
+},
+
+
+// --------------------------------------------
+
+
+
   {
   slug: 'roblox-rivals-new-codes-may-2026',
   title: 'Roblox Rivals New Codes May 2026 – Fresh Active Rewards & Free Keys',
   category: 'Codes',
   date: '2026-05-10',
-  image: '/img/articles/article_04_01.jpg',
+  image: '/img/articles/article_08_03.webp',
   excerpt: 'Latest Roblox Rivals new codes for May 2026 with free keys, weapon wraps, charms, and exclusive rewards. Updated daily with working codes.',
   content: `
-    <article class="relative overflow-hidden rounded-2xl bg-black p-5 text-slate-200 sm:p-8 lg:p-10">
       <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
 
       <section class="relative border-b border-white/10 pb-10">
@@ -455,7 +1880,7 @@ export const blogPosts: BlogPost[] = [
 
       <figure class="relative my-10 overflow-hidden rounded-xl border border-white/10">
         <img
-          src="/img/articles/new-codes-may-2026.jpg"
+          src="/img/articles/article_06_02.webp"
           alt="Roblox Rivals new codes May 2026 active rewards and free keys guide"
           class="h-auto w-full object-cover"
           loading="eager"
@@ -754,7 +2179,6 @@ export const blogPosts: BlogPost[] = [
           </nav>
         </div>
       </section>
-    </article>
   `,
 },
 
@@ -768,7 +2192,6 @@ export const blogPosts: BlogPost[] = [
   image: '/img/articles/article_05_01.webp',
   excerpt: 'Best Roblox Rivals weapons ranked by damage, range, and fire rate. Learn top loadouts, weapon stats, and how to get free skins and codes from our generator.',
   content: `
-    <article class="relative overflow-hidden rounded-2xl bg-black p-5 text-slate-200 sm:p-8 lg:p-10">
       <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
 
       <style>
@@ -1288,7 +2711,6 @@ export const blogPosts: BlogPost[] = [
           </nav>
         </div>
       </section>
-    </article>
   `,
 },
 
@@ -1303,7 +2725,6 @@ export const blogPosts: BlogPost[] = [
   image: '/img/articles/article_06_01.jpg',
   excerpt: 'Complete Roblox Rivals ranked mode guide. Learn all ranks, ELO system, placement matches, climbing tips, and how to get free keys and skins from our generator.',
   content: `
-    <article class="relative overflow-hidden rounded-2xl bg-black p-5 text-slate-200 sm:p-8 lg:p-10">
       <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
 
       <style>
@@ -1863,7 +3284,6 @@ export const blogPosts: BlogPost[] = [
           </nav>
         </div>
       </section>
-    </article>
   `,
 },
 
@@ -1877,7 +3297,6 @@ export const blogPosts: BlogPost[] = [
   image: '/img/articles/article_01_01.webp',
   excerpt: 'Learn the best Roblox Rivals guns, beginner weapons, primary and secondary choices, loadout tips, map strategy, and smart ways to win more duels.',
   content: `
-    <article class="relative overflow-hidden rounded-2xl bg-black p-5 text-slate-200 sm:p-8 lg:p-10">
       <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
 
       <section class="relative border-b border-white/10 pb-10">
@@ -2255,7 +3674,6 @@ export const blogPosts: BlogPost[] = [
           </p>
         </div>
       </section>
-    </article>
   `,
 },
 
@@ -2270,7 +3688,6 @@ export const blogPosts: BlogPost[] = [
   image: '/img/articles/article_02_02.jpg',
   excerpt: 'Learn everything about Roblox Rivals ranks, ranked mode, ELO, placement matches, rank tiers, rewards, loadout tips, and how to climb faster.',
   content: `
-    <article class="relative overflow-hidden rounded-2xl bg-black p-5 text-slate-200 sm:p-8 lg:p-10">
       <div class="absolute inset-0 pattern-squares opacity-[0.05] pointer-events-none"></div>
 
       <section class="relative border-b border-white/10 pb-10">
@@ -2708,7 +4125,6 @@ export const blogPosts: BlogPost[] = [
           </p>
         </div>
       </section>
-    </article>
   `,
 },
 
@@ -3133,7 +4549,6 @@ export const blogPosts: BlogPost[] = [
           </p>
         </div>
       </section>
-    </article>
   `,
 },
 ];
